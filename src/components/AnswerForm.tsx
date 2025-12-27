@@ -13,7 +13,7 @@ const AnswerForm = () => {
 		const correctAnswer = reverseAnswer(keys[currentPage]?.answer);
 		const key = keys[currentPage]?.key;
 
-		if (answer.trim().toLowerCase() == correctAnswer) {
+		if (answer.trim().toLowerCase() == correctAnswer.toLowerCase()) {
 			setValue('correctAnswer', true);
 
 			let result = `Poprawnie!`;
