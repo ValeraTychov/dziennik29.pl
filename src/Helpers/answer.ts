@@ -1,20 +1,26 @@
 import type { Answer } from '../store/GameStore';
 
-type Range = { from: number; to: number };
+type Range = { range: string };
 
 const reverseAnswer = (str: string) => str.split('').reverse().join('');
 
-const isRange = (answer: Answer): answer is Range =>
-	typeof answer === 'object' && 'from' in answer;
+const isNumberRange = (answer: Answer): answer is Range =>
+	typeof answer === 'object' && 'range' in answer;
+
+const parseRange = (range: string): [number, number] => {
+	const [from, to] = reverseAnswer(range).split('..').map(Number);
+	return [from, to];
+};
 
 const isAnswerCorrect = (answer: Answer | undefined, guess: string): boolean => {
 	if (answer == null) return false;
 
 	const normalized = guess.trim().toLowerCase();
 
-	if (isRange(answer)) {
+	if (isNumberRange(answer)) {
+		const [from, to] = parseRange(answer.range);
 		const num = Number(normalized);
-		return Number.isFinite(num) && num >= answer.from && num <= answer.to;
+		return Number.isInteger(num) && num >= from && num <= to;
 	}
 
 	if (Array.isArray(answer)) {
@@ -29,8 +35,9 @@ const isAnswerCorrect = (answer: Answer | undefined, guess: string): boolean => 
 const formatAnswer = (answer: Answer | undefined): string => {
 	if (answer == null) return '';
 
-	if (isRange(answer)) {
-		return `dowolna liczba z zakresu ${answer.from}–${answer.to}`;
+	if (isNumberRange(answer)) {
+		const [from, to] = parseRange(answer.range);
+		return `dowolna liczba z zakresu ${from}–${to}`;
 	}
 
 	if (Array.isArray(answer)) {
