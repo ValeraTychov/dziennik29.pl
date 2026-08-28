@@ -4,8 +4,6 @@ Dziennik29.pl - autorska wersja strony z hasłami, stworzona jako alternatywa dl
 
 Hasła i podpowiedzi zostały pobrane z archiwalnej strony internetowej. Klucze zostały uzupełnione na podstawie wcześniej zapisanych odpowiedzi użytkowników, co nie daje 100% gwarancji poprawności danych.
 
-**⚠️ Zagadki nr 51 nie można rozwiązać bez oryginalnej strony internetowej** (Wkrótce to naprawimy)
-
 ## 🌐 Interaktywna strona internetowa
 
 👉 [`https://ghornon.github.io/dziennik29.pl/`](https://ghornon.github.io/dziennik29.pl/)
