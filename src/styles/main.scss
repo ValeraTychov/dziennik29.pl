@@ -416,7 +416,6 @@ body {
 	margin: 0;
 }
 
-// Machina page — CRT terminal
 $machina-cyan: #3fffd8;
 $machina-bg: #031e11;
 
@@ -519,19 +518,48 @@ $machina-bg: #031e11;
 	}
 }
 
+.ostatni {
+	background-color: #000;
+	min-height: 100vh;
+	padding: 20px;
+
+	&__waveform {
+		overflow-x: auto;
+	}
+
+	&__controls {
+		text-align: center;
+		margin-top: 16px;
+	}
+
+	&__btn {
+		background: none;
+		border: 1px solid white;
+		color: white;
+		padding: 8px 20px;
+		cursor: pointer;
+		font-size: 14px;
+
+		&:hover {
+			background: rgba(255, 255, 255, 0.1);
+		}
+	}
+}
+
 .not-found {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	padding-top: 3em;
 	width: 100%;
 	height: 100dvh;
 	background: #000;
 
 	span {
 		color: #fff;
-		font-family: 'EB Garamond', serif;
-		font-size: clamp(1rem, 4vw, 2rem);
-		letter-spacing: 0.2em;
+		font-family: Georgia, 'Times New Roman', serif;
+		font-size: 1rem;
+		font-weight: 400;
 		text-transform: uppercase;
+		letter-spacing: normal;
 	}
 }

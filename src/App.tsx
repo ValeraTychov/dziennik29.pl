@@ -1,6 +1,7 @@
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import GamePage from './pages/GamePage';
 import NotFound from './pages/NotFound';
+import Ostatni from './pages/Ostatni';
 import Notes from './pages/Notes';
 import Mirror from './pages/Mirror';
 import Machina from './pages/Machina';
@@ -14,6 +15,7 @@ function App() {
 				<Route path="/:pageId" element={<GamePage />} />
 
 				{/* Static */}
+				<Route path="/ostatni"  element={<Ostatni />} />
 				<Route path="/notes"    element={<Notes />} />
 				<Route path="/notatki"  element={<Notes />} />
 				<Route path="/machina"  element={<Machina />} />
