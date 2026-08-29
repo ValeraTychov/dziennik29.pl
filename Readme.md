@@ -37,9 +37,9 @@ użyj:
 
 ## 📖 Dziennik 29 Przebudzenie & Dziennik 29 Zapomnienie
 
-Na stronie Webarchive nie zachowały się żadne strony dotyczące tej książki, dlatego klucze i odpowiedzi zostały pobrane z udostępnionych plików.
+Na stronie Webarchive nie zachowały się żadne strony dotyczące tych książek, dlatego klucze i odpowiedzi zostały pobrane z udostępnionych plików.
 
 **🚫 Od pytania 64 nie są już dostępne podpowiedzi.**
 
-Część kluczy i odpowiedzi musiała została zmieniona, jednak ich oryginalny sposób rozwiązywania pozostał bez zmian. Aktualnie zagadki multimedialne są wczytywane z oryginalnej anglojęzycznej strony, ale zagadki multimedialne są uniwersalne, chociaż odpowiedzi niestety nie zawsze.
+Część kluczy i odpowiedzi musiała zostać zmieniona, jednak ich oryginalny sposób rozwiązywania pozostał bez zmian. Aktualnie zagadki multimedialne są wczytywane z oryginalnej anglojęzycznej strony. Zagadki multimedialne są uniwersalne, chociaż odpowiedzi niestety nie zawsze pasują.
 
