@@ -1,59 +1,292 @@
 [
-	{ "answer": "azcęt", "key": "pól" },
-	{ "answer": "ćśonozcńoksein", "key": "pionek" },
-	{ "answer": "tseg", "key": "róż" },
-	{ "answer": "kenyr", "key": "ręcznik" },
-	{ "answer": "072", "key": "bez" },
-	{ "answer": "063", "key": "łoże" },
-	{ "answer": "069", "key": "kod" },
-	{ "answer": "raimzeb", "key": "kresowy" },
-	{ "answer": "dop", "key": "wykopaliska" },
-	{ "answer": "nelt", "key": "telefon" },
-	{ "answer": "lenut", "key": "klawisze" },
-	{ "answer": "29321", "key": "niezbadane" },
-	{ "answer": "adazsor", "key": "ryt" },
-	{ "answer": "924040", "key": "terrazyt" },
-	{ "answer": "tal ots", "key": "kropki" },
-	{ "answer": "einatszor", "key": "zakaz" },
-	{ "answer": "854297992", "key": "jod" },
-	{ "answer": "metsysoke", "key": "woda" },
-	{ "answer": "zaret", "key": "wysokość" },
-	{ "answer": "882", "key": "dziennik" },
-	{ "answer": "agla", "key": "siarka" },
-	{ "answer": "pdpdldp", "key": "portal" },
-	{ "answer": "ńałhcto", "key": "baterie" },
-	{ "answer": "ecwonam", "key": "czerwony" },
-	{ "answer": "jatut", "key": "niebieska" },
-	{ "answer": "033", "key": "szerokość" },
-	{ "answer": "maerd", "key": "cynk" },
-	{ "answer": "aktsup", "key": "czytaj" },
-	{ "answer": "mutnauq", "key": "żółty" },
-	{ "answer": "arksi", "key": "czerwona" },
-	{ "answer": "43134", "key": "niebieski" },
-	{ "answer": "04-", "key": "brązowa" },
-	{ "answer": "yrutrot", "key": "wygnij" },
-	{ "answer": "anorok", "key": "wystawa" },
-	{ "answer": "tsom", "key": "tlen" },
-	{ "answer": "552", "key": "początek" },
-	{ "answer": "einawikuzsop", "key": "czarna" },
-	{ "answer": "8158", "key": "Rota" },
-	{ "answer": "9145", "key": "azot" },
-	{ "answer": "hcarts", "key": "destylacja" },
-	{ "answer": "yhcołw", "key": "20000" },
-	{ "answer": "enrev zsuiluj", "key": "melasa" },
-	{ "answer": "ppllllz", "key": "odwaga" },
-	{ "answer": "tol", "key": "itr" },
-	{ "answer": "7971", "key": "ameryk" },
-	{ "answer": "anaimz", "key": "przerost" },
-	{ "answer": "55", "key": "nora" },
-	{ "answer": "aniltok", "key": "sznurek" },
-	{ "answer": "rotarum", "key": "patyk" },
-	{ "answer": "einezcanzezrp", "key": "srebro" },
-	{ "answer": "0071", "key": "papier" },
-	{ "answer": "nilknarf", "key": "królik" },
-	{ "answer": "wórazc aniark", "key": "wolfram" },
-	{ "answer": "naicśezs", "key": "fosfor" },
-	{ "answer": "8732", "key": "avena" },
-	{ "answer": ["411 111 29 67 96", "411111296796"], "key": "lughole" },
-	{ "answer": "9164 783 52583", "key": "" }
+	{
+		"answer": "azcęt",
+		"key": "pól",
+		"tip": ""
+	},
+	{
+		"answer": "ćśonozcńoksein",
+		"key": "pionek",
+		"tip": ""
+	},
+	{
+		"answer": "tseg",
+		"key": "róż",
+		"tip": ""
+	},
+	{
+		"answer": "kenyr",
+		"key": "ręcznik",
+		"tip": ""
+	},
+	{
+		"answer": "072",
+		"key": "bez",
+		"tip": ""
+	},
+	{
+		"answer": "063",
+		"key": "łoże",
+		"tip": ""
+	},
+	{
+		"answer": "069",
+		"key": "kod",
+		"tip": ""
+	},
+	{
+		"answer": "raimzeb",
+		"key": "kresowy",
+		"tip": ""
+	},
+	{
+		"answer": "dop",
+		"key": "wykopaliska",
+		"tip": ""
+	},
+	{
+		"answer": "nelt",
+		"key": "telefon",
+		"tip": ""
+	},
+	{
+		"answer": "lenut",
+		"key": "klawisze",
+		"tip": ""
+	},
+	{
+		"answer": "29321",
+		"key": "niezbadane",
+		"tip": ""
+	},
+	{
+		"answer": "adazsor",
+		"key": "ryt",
+		"tip": ""
+	},
+	{
+		"answer": "924040",
+		"key": "terrazyt",
+		"tip": ""
+	},
+	{
+		"answer": "tal ots",
+		"key": "kropki",
+		"tip": ""
+	},
+	{
+		"answer": "einatszor",
+		"key": "zakaz",
+		"tip": ""
+	},
+	{
+		"answer": "854297992",
+		"key": "jod",
+		"tip": ""
+	},
+	{
+		"answer": "metsysoke",
+		"key": "woda",
+		"tip": ""
+	},
+	{
+		"answer": {
+			"dynamic": 82
+		},
+		"key": "wysokość",
+		"tip": ""
+	},
+	{
+		"answer": "882",
+		"key": "dziennik",
+		"tip": ""
+	},
+	{
+		"answer": "agla",
+		"key": "siarka",
+		"tip": ""
+	},
+	{
+		"answer": "pdpdldp",
+		"key": "portal",
+		"tip": ""
+	},
+	{
+		"answer": "ńałhcto",
+		"key": "baterie",
+		"tip": ""
+	},
+	{
+		"answer": "ecwonam",
+		"key": "czerwony",
+		"tip": ""
+	},
+	{
+		"answer": "jatut",
+		"key": "niebieska",
+		"tip": ""
+	},
+	{
+		"answer": "033",
+		"key": "szerokość",
+		"tip": ""
+	},
+	{
+		"answer": "maerd",
+		"key": "cynk",
+		"tip": ""
+	},
+	{
+		"answer": "aktsup",
+		"key": "czytaj",
+		"tip": ""
+	},
+	{
+		"answer": "mutnauq",
+		"key": "żółty",
+		"tip": ""
+	},
+	{
+		"answer": "arksi",
+		"key": "czerwona",
+		"tip": ""
+	},
+	{
+		"answer": "43134",
+		"key": "niebieski",
+		"tip": ""
+	},
+	{
+		"answer": "04-",
+		"key": "brązowa",
+		"tip": ""
+	},
+	{
+		"answer": "yrutrot",
+		"key": "wygnij",
+		"tip": ""
+	},
+	{
+		"answer": "anorok",
+		"key": "wystawa",
+		"tip": ""
+	},
+	{
+		"answer": "tsom",
+		"key": "tlen",
+		"tip": ""
+	},
+	{
+		"answer": "552",
+		"key": "początek",
+		"tip": ""
+	},
+	{
+		"answer": "einawikuzsop",
+		"key": "czarna",
+		"tip": ""
+	},
+	{
+		"answer": "8158",
+		"key": "Rota",
+		"tip": ""
+	},
+	{
+		"answer": "9145",
+		"key": "azot",
+		"tip": ""
+	},
+	{
+		"answer": "hcarts",
+		"key": "destylacja",
+		"tip": ""
+	},
+	{
+		"answer": "yhcołw",
+		"key": "20000",
+		"tip": ""
+	},
+	{
+		"answer": "enrev zsuiluj",
+		"key": "melasa",
+		"tip": ""
+	},
+	{
+		"answer": "ppllllz",
+		"key": "odwaga",
+		"tip": ""
+	},
+	{
+		"answer": "tol",
+		"key": "itr",
+		"tip": ""
+	},
+	{
+		"answer": "7971",
+		"key": "ameryk",
+		"tip": ""
+	},
+	{
+		"answer": "anaimz",
+		"key": "przerost",
+		"tip": ""
+	},
+	{
+		"answer": "55",
+		"key": "nora",
+		"tip": ""
+	},
+	{
+		"answer": "aniltok",
+		"key": "sznurek",
+		"tip": ""
+	},
+	{
+		"answer": "rotarum",
+		"key": "patyk",
+		"tip": ""
+	},
+	{
+		"answer": "einezcanzezrp",
+		"key": "srebro",
+		"tip": ""
+	},
+	{
+		"answer": "0071",
+		"key": "papier",
+		"tip": ""
+	},
+	{
+		"answer": "nilknarf",
+		"key": "królik",
+		"tip": ""
+	},
+	{
+		"answer": "wórazc aniark",
+		"key": "wolfram",
+		"tip": ""
+	},
+	{
+		"answer": "naicśezs",
+		"key": "fosfor",
+		"tip": ""
+	},
+	{
+		"answer": "8732",
+		"key": "avena",
+		"tip": ""
+	},
+	{
+		"answer": [
+			"411 111 29 67 96",
+			"411111296796"
+		],
+		"key": "lughole",
+		"tip": ""
+	},
+	{
+		"answer": "9164 783 52583",
+		"key": "",
+		"tip": ""
+	}
 ]

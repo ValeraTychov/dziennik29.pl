@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
 import { devtools } from 'zustand/middleware';
 
-export type Answer = string | string[] | { range: string };
+export type Answer = string | string[] | { dynamic: number };
 
 export interface IKey {
 	answer: Answer;

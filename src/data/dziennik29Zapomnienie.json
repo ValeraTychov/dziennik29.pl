@@ -1,42 +1,205 @@
 [
-	{ "answer": "9831", "key": "cztery" },
-	{ "answer": "GEIB", "key": "dwa" },
-	{ "answer": "7536", "key": "klan" },
-	{ "answer": "061", "key": "spec" },
-	{ "answer": "kęj", "key": "wilk" },
-	{ "answer": "yzrt", "key": "mops" },
-	{ "answer": "ycbo", "key": "kamienie" },
-	{ "answer": "jam", "key": "cisza" },
-	{ "answer": "161", "key": "względność" },
-	{ "answer": "enad", "key": "chemia" },
-	{ "answer": "anarbmem", "key": "siedem" },
-	{ "answer": "tal ots", "key": "klasyk" },
-	{ "answer": { "range": "6493..6463" }, "key": "piątka" },
-	{ "answer": "31", "key": "1000" },
-	{ "answer": "43573", "key": "kros" },
-	{ "answer": "5233", "key": "królik" },
-	{ "answer": "katp", "key": "machina" },
-	{ "answer": "naryt", "key": "ślina" },
-	{ "answer": "amzyrahc", "key": "utarg" },
-	{ "answer": "6211", "key": "fort" },
-	{ "answer": "613468641", "key": "pierwsze" },
-	{ "answer": "noip", "key": "następna" },
-	{ "answer": "lec", "key": "nobel" },
-	{ "answer": "koms", "key": "wodospad" },
-	{ "answer": "450", "key": "2000" },
-	{ "answer": "kos", "key": "zapal" },
-	{ "answer": "ceżorondej", "key": "publikacja" },
-	{ "answer": "ozależ", "key": "1982" },
-	{ "answer": "onreb", "key": "argon" },
-	{ "answer": "ulka", "key": "purchase" },
-	{ "answer": "pots", "key": "one" },
-	{ "answer": "888", "key": "dial" },
-	{ "answer": "127945", "key": "patrz" },
-	{ "answer": "823", "key": "lipa" },
-	{ "answer": "noitpeced", "key": "gra" },
-	{ "answer": "soahc", "key": "góra" },
-	{ "answer": ["medeis", "7"], "key": "dolina" },
-	{ "answer": "45325", "key": "nit" },
-	{ "answer": "mad", "key": "ulicznik" },
-	{ "answer": "einatiwś", "key": "" }
+	{
+		"answer": "9831",
+		"key": "cztery",
+		"tip": ""
+	},
+	{
+		"answer": "GEIB",
+		"key": "dwa",
+		"tip": ""
+	},
+	{
+		"answer": "7536",
+		"key": "klan",
+		"tip": ""
+	},
+	{
+		"answer": "061",
+		"key": "spec",
+		"tip": ""
+	},
+	{
+		"answer": "kęj",
+		"key": "wilk",
+		"tip": ""
+	},
+	{
+		"answer": "yzrt",
+		"key": "mops",
+		"tip": ""
+	},
+	{
+		"answer": "ycbo",
+		"key": "kamienie",
+		"tip": ""
+	},
+	{
+		"answer": "jam",
+		"key": "cisza",
+		"tip": ""
+	},
+	{
+		"answer": "161",
+		"key": "względność",
+		"tip": ""
+	},
+	{
+		"answer": "enad",
+		"key": "chemia",
+		"tip": ""
+	},
+	{
+		"answer": "anarbmem",
+		"key": "siedem",
+		"tip": ""
+	},
+	{
+		"answer": "tal ots",
+		"key": "klasyk",
+		"tip": ""
+	},
+	{
+		"answer": {	"dynamic": 134 },
+		"key": "piątka",
+		"tip": ""
+	},
+	{
+		"answer": "31",
+		"key": "1000",
+		"tip": ""
+	},
+	{
+		"answer": "43573",
+		"key": "kros",
+		"tip": ""
+	},
+	{
+		"answer": "5233",
+		"key": "królik",
+		"tip": ""
+	},
+	{
+		"answer": "katp",
+		"key": "machina",
+		"tip": ""
+	},
+	{
+		"answer": "naryt",
+		"key": "ślina",
+		"tip": ""
+	},
+	{
+		"answer": "amzyrahc",
+		"key": "utarg",
+		"tip": ""
+	},
+	{
+		"answer": "6211",
+		"key": "fort",
+		"tip": ""
+	},
+	{
+		"answer": "613468641",
+		"key": "pierwsze",
+		"tip": ""
+	},
+	{
+		"answer": "noip",
+		"key": "następna",
+		"tip": ""
+	},
+	{
+		"answer": "lec",
+		"key": "nobel",
+		"tip": ""
+	},
+	{
+		"answer": "koms",
+		"key": "wodospad",
+		"tip": ""
+	},
+	{
+		"answer": "450",
+		"key": "2000",
+		"tip": ""
+	},
+	{
+		"answer": "kos",
+		"key": "zapal",
+		"tip": ""
+	},
+	{
+		"answer": "ceżorondej",
+		"key": "publikacja",
+		"tip": ""
+	},
+	{
+		"answer": "ozależ",
+		"key": "1982",
+		"tip": ""
+	},
+	{
+		"answer": "onreb",
+		"key": "argon",
+		"tip": ""
+	},
+	{
+		"answer": "ulka",
+		"key": "purchase",
+		"tip": ""
+	},
+	{
+		"answer": "pots",
+		"key": "one",
+		"tip": ""
+	},
+	{
+		"answer": "888",
+		"key": "dial",
+		"tip": ""
+	},
+	{
+		"answer": "127945",
+		"key": "patrz",
+		"tip": ""
+	},
+	{
+		"answer": "823",
+		"key": "lipa",
+		"tip": ""
+	},
+	{
+		"answer": "noitpeced",
+		"key": "gra",
+		"tip": ""
+	},
+	{
+		"answer": "soahc",
+		"key": "góra",
+		"tip": ""
+	},
+	{
+		"answer": [
+			"medeis",
+			"7"
+		],
+		"key": "dolina",
+		"tip": ""
+	},
+	{
+		"answer": "45325",
+		"key": "nit",
+		"tip": ""
+	},
+	{
+		"answer": "mad",
+		"key": "ulicznik",
+		"tip": ""
+	},
+	{
+		"answer": "einatiwś",
+		"key": "",
+		"tip": ""
+	}
 ]
