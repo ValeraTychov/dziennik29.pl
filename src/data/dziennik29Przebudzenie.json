@@ -91,7 +91,8 @@
 	},
 	{
 		"answer": {
-			"dynamic": 82
+			"value": "]mmhh[ ytunim i ęnizdog ąnlautka zsipW",
+			"customValidator": "puzzle82"
 		},
 		"key": "wysokość",
 		"tip": ""
@@ -112,7 +113,7 @@
 		"tip": ""
 	},
 	{
-		"answer": "ńałhcto",
+		"answer": "noivilbo",
 		"key": "baterie",
 		"tip": ""
 	},

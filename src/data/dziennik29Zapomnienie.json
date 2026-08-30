@@ -60,7 +60,10 @@
 		"tip": ""
 	},
 	{
-		"answer": {	"dynamic": 134 },
+		"answer": {
+			"value": "6493 - 6463 userkaz z abzcil anlowoD",
+			"customValidator": "puzzle133"
+		},
 		"key": "piątka",
 		"tip": ""
 	},
