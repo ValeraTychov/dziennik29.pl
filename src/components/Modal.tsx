@@ -33,7 +33,8 @@ const Modal = () => {
 				setValue('result', 'Brak dostępnych podpowiedzi');
 			} else {
 				const idx = hintIndex % tips.length;
-				setValue('result', `${idx + 1}. ${tips[idx]}`);
+				const prefix = tips.length > 1 ? `${idx + 1}. ` : '';
+				setValue('result', `${prefix}${tips[idx]}`);
 				setHintIndex(idx + 1);
 			}
 		}
