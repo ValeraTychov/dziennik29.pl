@@ -7,6 +7,7 @@ const Modal = () => {
 	const [titleText, setTitleText] = useState('');
 	const modalRef = useRef<HTMLDivElement>(null);
 	const [modalType, setModalType] = useState('');
+	const [hintIndex, setHintIndex] = useState(0);
 
 	const keys = useGameStore((state) => state.keys);
 	const currentPage = useGameStore((state) => state.currentPage);
@@ -27,8 +28,14 @@ const Modal = () => {
 	const handleModalYes = () => {
 		setOpen(false);
 		if (modalType === 'tip') {
-			const tip = keys[currentPage]?.tip;
-			setValue('result', tip || 'Brak dostępnych podpowiedzi');
+			const tips = keys[currentPage]?.tips ?? [];
+			if (tips.length === 0) {
+				setValue('result', 'Brak dostępnych podpowiedzi');
+			} else {
+				const idx = hintIndex % tips.length;
+				setValue('result', `${idx + 1}. ${tips[idx]}`);
+				setHintIndex(idx + 1);
+			}
 		}
 		if (modalType === 'answer') {
 			const answer = formatAnswer(keys[currentPage]?.answer);
@@ -39,6 +46,10 @@ const Modal = () => {
 	const handleModalClose = () => {
 		setOpen(false);
 	};
+
+	useEffect(() => {
+		setHintIndex(0);
+	}, [currentPage]);
 
 	useEffect(() => {
 		const handleClick = (event: MouseEvent) => {

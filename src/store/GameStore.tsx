@@ -7,7 +7,7 @@ export type Answer = string | string[] | { value: string; customValidator: strin
 export interface IKey {
 	answer: Answer;
 	key: string;
-	tip?: string;
+	tips?: string[];
 	error?: string;
 }
 

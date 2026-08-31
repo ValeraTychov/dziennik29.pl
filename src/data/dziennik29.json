@@ -2,385 +2,516 @@
 	{
 		"answer": "92",
 		"key": "Brawo!",
-		"tip": "To powinno być proste, matematyczne zadanie.",
-		"answerDescription": "Dodanie dwóch liczb da rozwiązanie."
+		"answerDescription": "Dodanie dwóch liczb da rozwiązanie.",
+		"tips": [
+			"To powinno być proste, matematyczne zadanie."
+		]
 	},
 	{
 		"answer": "awak",
 		"key": "torbiel",
-		"tip": "Co mogło stać w tym miejscu?",
-		"answerDescription": "Ślad w książce wygląda, jakby postawiono na niej kubek z kawą."
+		"answerDescription": "Ślad w książce wygląda, jakby postawiono na niej kubek z kawą.",
+		"tips": [
+			"Co mogło stać w tym miejscu?"
+		]
 	},
 	{
 		"answer": "bolg",
 		"key": "szyny",
-		"tip": "Spójrz na to z innej strony.",
-		"answerDescription": "Po obróceniu książki do góry nogami cyfry można odczytać jako litery."
+		"answerDescription": "Po obróceniu książki do góry nogami cyfry można odczytać jako litery.",
+		"tips": [
+			"Spójrz na to z innej strony."
+		]
 	},
 	{
 		"answer": "anerfehC adimariP",
 		"key": "czerwień",
-		"tip": "To gdzieś w Afryce...",
-		"answerDescription": "Podane liczby to współrzędne GPS wskazujące położenie piramidy Chefrena."
+		"answerDescription": "Podane liczby to współrzędne GPS wskazujące położenie piramidy Chefrena.",
+		"tips": [
+			"To gdzieś w Afryce..."
+		]
 	},
 	{
 		"answer": "żór",
 		"key": "wataha",
-		"tip": "Myśl synonimami, a potem barwami.",
-		"answerDescription": "Po odjęciu od słowa torbiel cząstki tor- (której synonim to: szyny) uzyskuje się słowo biel. Biel dodana do czerwieni daje róż."
+		"answerDescription": "Po odjęciu od słowa torbiel cząstki tor- (której synonim to: szyny) uzyskuje się słowo biel. Biel dodana do czerwieni daje róż.",
+		"tips": [
+			"Myśl synonimami, a potem barwami."
+		]
 	},
 	{
 		"answer": "9521648",
 		"key": "żelazo",
-		"tip": "Podążaj ścieżką liczb.",
-		"answerDescription": "Czytając litery spiralnie (od zewnątrz do środka), można odczytać kolejne liczby."
+		"answerDescription": "Czytając litery spiralnie (od zewnątrz do środka), można odczytać kolejne liczby.",
+		"tips": [
+			"Podążaj ścieżką liczb."
+		]
 	},
 	{
 		"answer": "2653589",
 		"key": "cynk",
-		"tip": "To bardzo specjalna liczba.",
-		"answerDescription": "Wypisane cyfry to kolejne cyfry liczby pi. Niektóre z nich są błędne – odpowiedzią są zaś poprawne wartości."
+		"answerDescription": "Wypisane cyfry to kolejne cyfry liczby pi. Niektóre z nich są błędne – odpowiedzią są zaś poprawne wartości.",
+		"tips": [
+			"To bardzo specjalna liczba."
+		]
 	},
 	{
 		"answer": "06936",
 		"key": "iluzja",
-		"tip": "Poproś Mendelejewa o pomoc.",
-		"answerDescription": "W układzie okresowym każdy pierwiastek chemiczny ma swój numer. Wymnażając te przypisane numery, uzyskuje się odpowiedź."
+		"answerDescription": "W układzie okresowym każdy pierwiastek chemiczny ma swój numer. Wymnażając te przypisane numery, uzyskuje się odpowiedź.",
+		"tips": [
+			"Poproś Mendelejewa o pomoc."
+		]
 	},
 	{
 		"answer": "naidysbo",
 		"key": "nie",
-		"tip": "Tylko jedna trasa prowadzi do środka.",
-		"answerDescription": "Podążając jedyną możliwą trasą do środka labiryntu, odczytuje się kolejne litery hasła."
+		"answerDescription": "Podążając jedyną możliwą trasą do środka labiryntu, odczytuje się kolejne litery hasła.",
+		"tips": [
+			"Tylko jedna trasa prowadzi do środka."
+		]
 	},
 	{
 		"answer": "OCFTI93",
 		"key": "pyta",
-		"tip": "Telefon, internet, lotnisko.",
-		"answerDescription": "Oba opisy utworzone są według wzoru: telefoniczny numer kierunkowy, dwuliterowa nazwa krajowej domeny internetowej, kod IATA lotniska w mieście. Koloseum wskazuje, że chodzi o włoskie miasto Rzym."
+		"answerDescription": "Oba opisy utworzone są według wzoru: telefoniczny numer kierunkowy, dwuliterowa nazwa krajowej domeny internetowej, kod IATA lotniska w mieście. Koloseum wskazuje, że chodzi o włoskie miasto Rzym.",
+		"tips": [
+			"Telefon, internet, lotnisko."
+		]
 	},
 	{
 		"answer": "eraepsekahS",
 		"key": "strach",
-		"tip": "Kto to napisał?",
-		"answerDescription": "„Oto jest pytanie” to cytat ze sztuki „Hamlet” autorstwa Williama Szekspira. Hasłem jest nazwisko autora."
+		"answerDescription": "„Oto jest pytanie” to cytat ze sztuki „Hamlet” autorstwa Williama Szekspira. Hasłem jest nazwisko autora.",
+		"tips": [
+			"Kto to napisał?"
+		]
 	},
 	{
 		"answer": "einatswop",
 		"key": "odwar",
-		"tip": "Klawiatury wyglądają wszędzie tak samo.",
-		"answerDescription": "Symbole na obrazku przestawione są w takim samym układzie jak ten, który stosowany jest w klawiaturze komputerowej. Wskazuje to na przypisanie liter do znaków. Kolejne znaki w pierwszym wierszu to QWERTY..."
+		"answerDescription": "Symbole na obrazku przestawione są w takim samym układzie jak ten, który stosowany jest w klawiaturze komputerowej. Wskazuje to na przypisanie liter do znaków. Kolejne znaki w pierwszym wierszu to QWERTY...",
+		"tips": [
+			"Klawiatury wyglądają wszędzie tak samo."
+		]
 	},
 	{
 		"answer": "atulaw",
 		"key": "bomba",
-		"tip": "Sudoku wskazuje konkretne litery.",
-		"answerDescription": "Rozwiązanie sudoku 6x6 pozwala odczytać symbole (a przez to – liczby) odpowiadające poszczególnym kluczom. Każdemu kluczowi przypisane są dwie liczby – wskazują one, które litery z klucza należy przeczytać, aby uzyskać rozwiązanie."
+		"answerDescription": "Rozwiązanie sudoku 6x6 pozwala odczytać symbole (a przez to – liczby) odpowiadające poszczególnym kluczom. Każdemu kluczowi przypisane są dwie liczby – wskazują one, które litery z klucza należy przeczytać, aby uzyskać rozwiązanie.",
+		"tips": [
+			"Sudoku wskazuje konkretne litery."
+		]
 	},
 	{
 		"answer": "einawodrabmob",
 		"key": "gaz",
-		"tip": "Jeden klucz nie jest w odpowiedniej kolejności.",
-		"answerDescription": "Zmieniając kolejność liter w środkowym kluczu w taki sam sposób jak w środkowym napisie, uzyskuje się rozwiązanie."
+		"answerDescription": "Zmieniając kolejność liter w środkowym kluczu w taki sam sposób jak w środkowym napisie, uzyskuje się rozwiązanie.",
+		"tips": [
+			"Jeden klucz nie jest w odpowiedniej kolejności."
+		]
 	},
 	{
 		"answer": "obein",
 		"key": "motyka",
-		"tip": "Można to czytać nie widząc.",
-		"answerDescription": "Rozwiązanie jest zapisane przy użyciu znaków alfabetu Braille'a."
+		"answerDescription": "Rozwiązanie jest zapisane przy użyciu znaków alfabetu Braille'a.",
+		"tips": [
+			"Można to czytać nie widząc."
+		]
 	},
 	{
 		"answer": "zsym",
 		"key": "syrena",
-		"tip": "Taki wielki a przeszkadza mu taka mała.",
-		"answerDescription": "Po połączeniu kropek widać słonia. Według popularnej teorii słonie najbardziej boją się myszy."
+		"answerDescription": "Po połączeniu kropek widać słonia. Według popularnej teorii słonie najbardziej boją się myszy.",
+		"tips": [
+			"Taki wielki a przeszkadza mu taka mała."
+		]
 	},
 	{
 		"answer": "atemok",
 		"key": "lot",
-		"tip": "Mastermind!",
-		"answerDescription": "Jest to gra typu mastermind, tylko z literami zamiast klasycznych kolorów. Istnieje kilka dróg prowadzących do rozwiązania: można zacząć od porównania księgi z ostatnią linijką, następnie księgi i egoizmu, a później – klucza 14 z egoizmem."
+		"answerDescription": "Jest to gra typu mastermind, tylko z literami zamiast klasycznych kolorów. Istnieje kilka dróg prowadzących do rozwiązania: można zacząć od porównania księgi z ostatnią linijką, następnie księgi i egoizmu, a później – klucza 14 z egoizmem.",
+		"tips": [
+			"Mastermind!"
+		]
 	},
 	{
 		"answer": "sraM",
 		"key": "dopalacz",
-		"tip": "W tym układzie jesteśmy na trzeciej planecie.",
-		"answerDescription": "Rysunek przedstawia schemat planet Układu Słonecznego – z zaznaczoną czwartą planetą."
+		"answerDescription": "Rysunek przedstawia schemat planet Układu Słonecznego – z zaznaczoną czwartą planetą.",
+		"tips": [
+			"W tym układzie jesteśmy na trzeciej planecie."
+		]
 	},
 	{
 		"answer": "raimzeb",
 		"key": "molekuła",
-		"tip": "oko i zbliż do nosa.\n\nZamknij",
-		"answerDescription": "Rozwiązanie zostało zapisane w dużym rozciągnięciu, tak że da się je odczytać jedynie po zbliżeniu książki do nosa i nachyleniu jej pod dużym kątem."
+		"answerDescription": "Rozwiązanie zostało zapisane w dużym rozciągnięciu, tak że da się je odczytać jedynie po zbliżeniu książki do nosa i nachyleniu jej pod dużym kątem.",
+		"tips": [
+			"oko i zbliż do nosa.\n\nZamknij"
+		]
 	},
 	{
 		"answer": "81",
 		"key": "lustro",
-		"tip": "Litery mogą być daleko od siebie.\nA jak daleko mogą być słowa?",
-		"answerDescription": "Przypisując literom kolejne liczby, można obliczyć odległość pomiędzy literami – czyli różnicę przypisanych im liczb. Po zsumowaniu wszystkich różnic otrzymuje się rozwiązanie."
+		"answerDescription": "Przypisując literom kolejne liczby, można obliczyć odległość pomiędzy literami – czyli różnicę przypisanych im liczb. Po zsumowaniu wszystkich różnic otrzymuje się rozwiązanie.",
+		"tips": [
+			"Litery mogą być daleko od siebie.\nA jak daleko mogą być słowa?"
+		]
 	},
 	{
 		"answer": "865924553",
 		"key": "port",
-		"tip": "Klawiatura telefoniczna ma zarówno litery jak i cyfry.",
-		"answerDescription": "Klawiatura telefonu przypisuje każdej cyfrze kilka liter. Przypisując literom i kluczom odpowiadające im cyfry i ciągi liczbowe, uzyskuje się numer telefonu stanowiący hasło."
+		"answerDescription": "Klawiatura telefonu przypisuje każdej cyfrze kilka liter. Przypisując literom i kluczom odpowiadające im cyfry i ciągi liczbowe, uzyskuje się numer telefonu stanowiący hasło.",
+		"tips": [
+			"Klawiatura telefoniczna ma zarówno litery jak i cyfry."
+		]
 	},
 	{
 		"answer": "azdeiw",
 		"key": "stos",
-		"tip": "Każda litera wiersza ma swój adres.",
-		"answerDescription": "Trójki liczb pod tekstem wskazują, które litery należy przeczytać. Kolejne liczby w trójce opisują: wiersz, słowo i literę."
+		"answerDescription": "Trójki liczb pod tekstem wskazują, które litery należy przeczytać. Kolejne liczby w trójce opisują: wiersz, słowo i literę.",
+		"tips": [
+			"Każda litera wiersza ma swój adres."
+		]
 	},
 	{
 		"answer": "772",
 		"key": "pionki",
-		"tip": "Połącz litery a zobaczysz cyfry.",
-		"answerDescription": "W słowach – wypisanych jedno nad drugim – występują pary liter: pierwsza litera pierwszego słowa łączy się z pierwszą literą drugiego słowa itd. Po połączeniu kropek na obrazku, zgodnie z parami wskazanymi przez słowa, otrzymuje się rozwiązanie."
+		"answerDescription": "W słowach – wypisanych jedno nad drugim – występują pary liter: pierwsza litera pierwszego słowa łączy się z pierwszą literą drugiego słowa itd. Po połączeniu kropek na obrazku, zgodnie z parami wskazanymi przez słowa, otrzymuje się rozwiązanie.",
+		"tips": [
+			"Połącz litery a zobaczysz cyfry."
+		]
 	},
 	{
 		"answer": "425893",
 		"key": "deficyt",
-		"tip": "Tylko na jeden sposób ten koń może dotrzeć do celu.",
-		"answerDescription": "Koń szachowy, narysowany w prawym dolnym rogu, porusza się w stronę celu znajdującego się w lewym górnym rogu. Skacząc po cyfrach zgodnie z zasadami szachowymi, koń wskazuje rozwiązanie."
+		"answerDescription": "Koń szachowy, narysowany w prawym dolnym rogu, porusza się w stronę celu znajdującego się w lewym górnym rogu. Skacząc po cyfrach zgodnie z zasadami szachowymi, koń wskazuje rozwiązanie.",
+		"tips": [
+			"Tylko na jeden sposób ten koń może dotrzeć do celu."
+		]
 	},
 	{
 		"answer": "tamotua",
 		"key": "jedwab",
-		"tip": "Połowy liter nie widać.",
-		"answerDescription": "Na stronie narysowane są połowy liter. Po przyłożeniu prawej krawędzi książki do lustra można odczytać rozwiązanie."
+		"answerDescription": "Na stronie narysowane są połowy liter. Po przyłożeniu prawej krawędzi książki do lustra można odczytać rozwiązanie.",
+		"tips": [
+			"Połowy liter nie widać."
+		]
 	},
 	{
-		"answer": ["461,01", "461.01"],
+		"answer": [
+			"461,01",
+			"461.01"
+		],
 		"key": "siedem",
-		"tip": "Nie zaokrąglaj żadnej z tych trzech liczb.",
-		"answerDescription": "Gdy klucze zostaną wpisane w pola, zaznaczone pola wskażą nazwy trzech liczb: stałej matematycznej, stosunku podziału oraz zwykłej liczby. Po wpisaniu tych liczb w pola na dole i obliczeniu ich iloczynu uzyskuje się rozwiązanie."
+		"answerDescription": "Gdy klucze zostaną wpisane w pola, zaznaczone pola wskażą nazwy trzech liczb: stałej matematycznej, stosunku podziału oraz zwykłej liczby. Po wpisaniu tych liczb w pola na dole i obliczeniu ich iloczynu uzyskuje się rozwiązanie.",
+		"tips": [
+			"Nie zaokrąglaj żadnej z tych trzech liczb."
+		]
 	},
 	{
 		"answer": "regnidorhcS",
 		"key": "dwa",
-		"tip": "Właściciel tego kota zawsze trzymał go w pojemniku.",
-		"answerDescription": "W obrazku kota są umieszczone napisy: martwy i żywy. Jest to nawiązanie do eksperymentu myślowego opublikowanego przez Erwina Schrödingera."
+		"answerDescription": "W obrazku kota są umieszczone napisy: martwy i żywy. Jest to nawiązanie do eksperymentu myślowego opublikowanego przez Erwina Schrödingera.",
+		"tips": [
+			"Właściciel tego kota zawsze trzymał go w pojemniku."
+		]
 	},
 	{
 		"answer": "936131",
 		"key": "pięć",
-		"tip": "Każdy sektor to trzy pary liczb opisujących go.",
-		"answerDescription": "Każdej części ciała przypisana jest liczba. Każdy sektor to opis rysunku według schematu. Schematem są trzy pary liczb: liczba wystąpień części ciała i liczba oznaczająca tę część. Rozwiązaniem jest analogiczny opis dolnego sektora."
+		"answerDescription": "Każdej części ciała przypisana jest liczba. Każdy sektor to opis rysunku według schematu. Schematem są trzy pary liczb: liczba wystąpień części ciała i liczba oznaczająca tę część. Rozwiązaniem jest analogiczny opis dolnego sektora.",
+		"tips": [
+			"Każdy sektor to trzy pary liczb opisujących go."
+		]
 	},
 	{
 		"answer": "853",
 		"key": "tlen",
-		"tip": "Wygląda jak wyświetlacz LED.",
-		"answerDescription": "Należy potraktować rysunek, jakby był schematem wyświetlacza LED. Zapisując nań kolejne cyfry wskazane przez klucze, otrzymuje się zbiór liczb, które należy zsumować, aby poznać rozwiązanie."
+		"answerDescription": "Należy potraktować rysunek, jakby był schematem wyświetlacza LED. Zapisując nań kolejne cyfry wskazane przez klucze, otrzymuje się zbiór liczb, które należy zsumować, aby poznać rozwiązanie.",
+		"tips": [
+			"Wygląda jak wyświetlacz LED."
+		]
 	},
 	{
 		"answer": "82188",
 		"key": "prom",
-		"tip": "Każda rzecz rzuca cień, gdy na nią poświecić.",
-		"answerDescription": "Należy przyłożyć ołówek we wskazanym miejscu. Światło (na przykład z latarki w komórce) świecące ze wskazanych miejsc spowoduje, że ołówek rzuci cień na kolejne liczby."
+		"answerDescription": "Należy przyłożyć ołówek we wskazanym miejscu. Światło (na przykład z latarki w komórce) świecące ze wskazanych miejsc spowoduje, że ołówek rzuci cień na kolejne liczby.",
+		"tips": [
+			"Każda rzecz rzuca cień, gdy na nią poświecić."
+		]
 	},
 	{
 		"answer": "67891",
 		"key": "etap",
-		"tip": "Brakujący trójkąt jest kilka stron dalej.",
-		"answerDescription": "Należy złożyć narożniki dwóch kolejnych stron książki – tak, aby uzupełnić dziurę w rysunku. Złożone obrazki utworzą liczbę będącą hasłem."
+		"answerDescription": "Należy złożyć narożniki dwóch kolejnych stron książki – tak, aby uzupełnić dziurę w rysunku. Złożone obrazki utworzą liczbę będącą hasłem.",
+		"tips": [
+			"Brakujący trójkąt jest kilka stron dalej."
+		]
 	},
 	{
 		"answer": "awon",
 		"key": "grzbiet",
-		"tip": "Niektóre symbole są do góry nogami.",
-		"answerDescription": "Klucze wskazują, którym symbolom należy przypisać które litery. W rozwiązaniu użyty jest symbol oznaczający literę M, ale umieszczony do góry nogami. Należy potraktować go zatem jako W."
+		"answerDescription": "Klucze wskazują, którym symbolom należy przypisać które litery. W rozwiązaniu użyty jest symbol oznaczający literę M, ale umieszczony do góry nogami. Należy potraktować go zatem jako W.",
+		"tips": [
+			"Niektóre symbole są do góry nogami."
+		]
 	},
 	{
 		"answer": "gdn",
 		"key": "rozpad",
-		"tip": "To są ciągi prostych rzeczy, których uczysz się już jako dziecko.",
-		"answerDescription": "Każdy ciąg składa się z pierwszych liter znanych ciągów słów. Są to kolejno: dni tygodnia (poniedziałek, wtorek...), liczby (jeden, dwa...) oraz miesiące (styczeń, luty...)."
+		"answerDescription": "Każdy ciąg składa się z pierwszych liter znanych ciągów słów. Są to kolejno: dni tygodnia (poniedziałek, wtorek...), liczby (jeden, dwa...) oraz miesiące (styczeń, luty...).",
+		"tips": [
+			"To są ciągi prostych rzeczy, których uczysz się już jako dziecko."
+		]
 	},
 	{
 		"answer": "123894",
 		"key": "lina",
-		"tip": "Liczą się tylko nowe linie.",
-		"answerDescription": "Na końcu książki, w rozdziale: „Notatki”, są do wycięcia takie same kształty. Gdy zostaną ułożone we wskazanych miejscach, dodatkowe linie utworzą liczby stanowiące hasło."
+		"answerDescription": "Na końcu książki, w rozdziale: „Notatki”, są do wycięcia takie same kształty. Gdy zostaną ułożone we wskazanych miejscach, dodatkowe linie utworzą liczby stanowiące hasło.",
+		"tips": [
+			"Liczą się tylko nowe linie."
+		]
 	},
 	{
 		"answer": "zculk",
 		"key": "długopis",
-		"tip": "Jaki kształt obrysowuje świecący punkt?",
-		"answerDescription": "Pod wskazanym adresem znajduje się film, na którym jasny punkt obrysowuje kształt klucza."
+		"answerDescription": "Pod wskazanym adresem znajduje się film, na którym jasny punkt obrysowuje kształt klucza.",
+		"tips": [
+			"Jaki kształt obrysowuje świecący punkt?"
+		]
 	},
 	{
 		"answer": "comop",
 		"key": "dzień",
-		"tip": "Szkoda, że dziennik nie jest prowadzony na przezroczystym papierze...",
-		"answerDescription": "Patrząc pod światło przez jasne okienka lub wycinając je, widać litery na następnej stronie. Litery te – czytane kolejno – utworzą rozwiązanie."
+		"answerDescription": "Patrząc pod światło przez jasne okienka lub wycinając je, widać litery na następnej stronie. Litery te – czytane kolejno – utworzą rozwiązanie.",
+		"tips": [
+			"Szkoda, że dziennik nie jest prowadzony na przezroczystym papierze..."
+		]
 	},
 	{
 		"answer": "tknup",
 		"key": "on",
-		"tip": "Książka też ma grzbiet.",
-		"answerDescription": "Na grzbiecie książki umieszczony jest napis zapisany alfabetem Morse'a. Po transkrypcji uzyskuje się rozwiązanie."
+		"answerDescription": "Na grzbiecie książki umieszczony jest napis zapisany alfabetem Morse'a. Po transkrypcji uzyskuje się rozwiązanie.",
+		"tips": [
+			"Książka też ma grzbiet."
+		]
 	},
 	{
 		"answer": "nogatnep",
 		"key": "ostatni",
-		"tip": "Kluczem jest też język.",
-		"answerDescription": "Klucze należy przetłumaczyć na odpowiednie języki (angielski, niemiecki, polski). Łącznie dają rozwiązanie."
+		"answerDescription": "Klucze należy przetłumaczyć na odpowiednie języki (angielski, niemiecki, polski). Łącznie dają rozwiązanie.",
+		"tips": [
+			"Kluczem jest też język."
+		]
 	},
 	{
 		"answer": "0542331",
 		"key": "płaz",
-		"tip": "Trzeba szukać od początku do końca.",
-		"answerDescription": "Trzeba odneleźć zagadki, w których występują pokazane na tej stronie symbole (symbole te pojawiają się we wcześniejszych i późniejszych zagadkach). Po wymnożeniu numerów zagadek, w których pojawiły się symbole, uzyskuje się rozwiązanie."
+		"answerDescription": "Trzeba odneleźć zagadki, w których występują pokazane na tej stronie symbole (symbole te pojawiają się we wcześniejszych i późniejszych zagadkach). Po wymnożeniu numerów zagadek, w których pojawiły się symbole, uzyskuje się rozwiązanie.",
+		"tips": [
+			"Trzeba szukać od początku do końca."
+		]
 	},
 	{
 		"answer": "snes",
 		"key": "akr",
-		"tip": "Poskładaj wzór na górze w całość.",
-		"answerDescription": "Po zagięciu strony – tak, aby wzór na górze dopełnił obrazek – z symboli poniżej powstaną litery stanowiące rozwiązanie."
+		"answerDescription": "Po zagięciu strony – tak, aby wzór na górze dopełnił obrazek – z symboli poniżej powstaną litery stanowiące rozwiązanie.",
+		"tips": [
+			"Poskładaj wzór na górze w całość."
+		]
 	},
 	{
 		"answer": "zrakłap",
 		"key": "parzyste",
-		"tip": "Co robią zęby kół zębatych?",
-		"answerDescription": "Należy przeczytać litery kluczy naprzemiennie – tak, jakby słowa zazębiały się."
+		"answerDescription": "Należy przeczytać litery kluczy naprzemiennie – tak, jakby słowa zazębiały się.",
+		"tips": [
+			"Co robią zęby kół zębatych?"
+		]
 	},
 	{
 		"answer": "28619",
 		"key": "lipa",
-		"tip": "Tylko fragmenty linii są pogrubione.",
-		"answerDescription": "Aby odczytać pięć cyfr tworzących rozwiązanie, należy przypatrzeć się kolejnym fragmentom rysunku. Pogrubione fragmenty linii wskazują istotne fragmenty rysunku."
+		"answerDescription": "Aby odczytać pięć cyfr tworzących rozwiązanie, należy przypatrzeć się kolejnym fragmentom rysunku. Pogrubione fragmenty linii wskazują istotne fragmenty rysunku.",
+		"tips": [
+			"Tylko fragmenty linii są pogrubione."
+		]
 	},
 	{
 		"answer": "ipzc",
 		"key": "liść",
-		"tip": "Symbole były na stronie 11, ale kalendarz musisz mieć swój...",
-		"answerDescription": "Symbole (do ich transkrypcji należy wykorzystać opis z zagadki 11) wskazują dwuliterowe skróty nazw dni tygodnia przypisane do dat. Należy sprawdzić, w które dni tygodnia wypadły pozostałe dwie daty."
+		"answerDescription": "Symbole (do ich transkrypcji należy wykorzystać opis z zagadki 11) wskazują dwuliterowe skróty nazw dni tygodnia przypisane do dat. Należy sprawdzić, w które dni tygodnia wypadły pozostałe dwie daty.",
+		"tips": [
+			"Symbole były na stronie 11, ale kalendarz musisz mieć swój..."
+		]
 	},
 	{
 		"answer": "60901",
 		"key": "odwrotnie",
-		"tip": "Policz litery i litery.",
-		"answerDescription": "Każda liczba składa się z dwóch części opisujących łącznie oba przypisane słowa. Pogrubiona część to całkowita liczba liter; dalsza część wskazuje liczbę wystąpień litery I (i). Wymnożenie tych wartości daje rozwiązanie."
+		"answerDescription": "Każda liczba składa się z dwóch części opisujących łącznie oba przypisane słowa. Pogrubiona część to całkowita liczba liter; dalsza część wskazuje liczbę wystąpień litery I (i). Wymnożenie tych wartości daje rozwiązanie.",
+		"tips": [
+			"Policz litery i litery."
+		]
 	},
 	{
 		"answer": "gpdg",
 		"key": "uskok",
-		"tip": "Te symbole chcą coś pokazać.",
-		"answerDescription": "Symbole są strzałkami kierunkowymi: l – lewo, g – góra, p – prawo, d – dół. Litery na dole to opis kolejnych strzałek (czytając od góry)."
+		"answerDescription": "Symbole są strzałkami kierunkowymi: l – lewo, g – góra, p – prawo, d – dół. Litery na dole to opis kolejnych strzałek (czytając od góry).",
+		"tips": [
+			"Te symbole chcą coś pokazać."
+		]
 	},
 	{
 		"answer": "021882",
 		"key": "obłok",
-		"tip": "Kręć 2. i 4. w przeciwną stronę.",
-		"answerDescription": "Dla każdego układu ustala się, co pokaże wskazówka, i wymnaża wskazane liczby. Kierunek obrotu koła pokazuje strzałka, ale – zgodnie z informacją z kluczy – kołami o numerach parzystych należy kręcić w przeciwną stronę."
+		"answerDescription": "Dla każdego układu ustala się, co pokaże wskazówka, i wymnaża wskazane liczby. Kierunek obrotu koła pokazuje strzałka, ale – zgodnie z informacją z kluczy – kołami o numerach parzystych należy kręcić w przeciwną stronę.",
+		"tips": [
+			"Kręć 2. i 4. w przeciwną stronę."
+		]
 	},
 	{
 		"answer": "9258292941",
 		"key": "światła",
-		"tip": "Ważne są tylko pierwsze litery.",
-		"answerDescription": "Cyfry są przyporządkowane do pierwszych liter słów. Gdy – analogicznie – zostaną przypisane do kluczy, utworzą rozwiązanie."
+		"answerDescription": "Cyfry są przyporządkowane do pierwszych liter słów. Gdy – analogicznie – zostaną przypisane do kluczy, utworzą rozwiązanie.",
+		"tips": [
+			"Ważne są tylko pierwsze litery."
+		]
 	},
 	{
 		"answer": "somsok",
 		"key": "wiek",
-		"tip": "Znajdź trzy różnice.",
-		"answerDescription": "Obrazki górny i dolny różnią się w trzech miejscach. Współrzędne tych miejsc, czytane kolejno, utworzą rozwiązanie."
+		"answerDescription": "Obrazki górny i dolny różnią się w trzech miejscach. Współrzędne tych miejsc, czytane kolejno, utworzą rozwiązanie.",
+		"tips": [
+			"Znajdź trzy różnice."
+		]
 	},
 	{
 		"answer": "621293",
 		"key": "eon",
-		"tip": "Arystoteles powiedział jak rozumieć znaki na lewej krawędzi filara.",
-		"answerDescription": "Przytoczony fragment pochodzi z tekstu o czasie. To podpowiedź, aby czarne kreski przy lewej krawędzi słupa potraktować jako wskazówki zegarów."
+		"answerDescription": "Przytoczony fragment pochodzi z tekstu o czasie. To podpowiedź, aby czarne kreski przy lewej krawędzi słupa potraktować jako wskazówki zegarów.",
+		"tips": [
+			"Arystoteles powiedział jak rozumieć znaki na lewej krawędzi filara."
+		]
 	},
 	{
 		"answer": "2576790",
 		"key": "chód",
-		"tip": "Litery już umiesz rozkodować, teraz pora na cyfry.",
-		"answerDescription": "Symbole (do ich transkrypcji należy użyć opisu z zagadki 11) przypisują liczby literom. Rozwiązaniem są liczby przypisane wskazanym kluczom."
+		"answerDescription": "Symbole (do ich transkrypcji należy użyć opisu z zagadki 11) przypisują liczby literom. Rozwiązaniem są liczby przypisane wskazanym kluczom.",
+		"tips": [
+			"Litery już umiesz rozkodować, teraz pora na cyfry."
+		]
 	},
 	{
 		"answer": "9701",
 		"key": "zwierzę",
-		"tip": "Przesuwaj, aż zobaczysz 5 liczb w systemie rzymskim.",
-		"answerDescription": "Kolejne pary wierszy są połowami zapisów liczbowych w systemie rzymskim. Po zsunięciu wierszy – tak, aby utworzyły pełne liczby – należy zsumować wszystkie zapisy."
+		"answerDescription": "Kolejne pary wierszy są połowami zapisów liczbowych w systemie rzymskim. Po zsunięciu wierszy – tak, aby utworzyły pełne liczby – należy zsumować wszystkie zapisy.",
+		"tips": [
+			"Przesuwaj, aż zobaczysz 5 liczb w systemie rzymskim."
+		]
 	},
 	{
 		"answer": "6383",
 		"key": "słońce",
-		"tip": "Porównaj obraz dźwięków z zapisem z dziennika.",
-		"answerDescription": "Pod podanym adresem internetowym znajduje się nagranie liczb wraz z wizualizacją ich fal dźwiękowych. Na tej podstawie obrazowi z zagadki przypisuje się kolejne cyfry tworzące rozwiązanie."
+		"answerDescription": "Pod podanym adresem internetowym znajduje się nagranie liczb wraz z wizualizacją ich fal dźwiękowych. Na tej podstawie obrazowi z zagadki przypisuje się kolejne cyfry tworzące rozwiązanie.",
+		"tips": [
+			"Porównaj obraz dźwięków z zapisem z dziennika."
+		]
 	},
 	{
 		"answer": "9691",
 		"key": "głos",
-		"tip": "Kiedy wydarzyło się to, co zostało opisane przeciwieństwami?",
-		"answerDescription": "Każdemu z kluczy należy przypisać słowo o przeciwnym znaczeniu. W ten sposób powstaje pytanie o pierwszego człowieka na księżycu. Napis na dole wskazuje, że chodzi o datę roczną lądowania."
+		"answerDescription": "Każdemu z kluczy należy przypisać słowo o przeciwnym znaczeniu. W ten sposób powstaje pytanie o pierwszego człowieka na księżycu. Napis na dole wskazuje, że chodzi o datę roczną lądowania.",
+		"tips": [
+			"Kiedy wydarzyło się to, co zostało opisane przeciwieństwami?"
+		]
 	},
 	{
 		"answer": "ceinog",
 		"key": "lód",
-		"tip": "Zamalowane kratki wygladają jak z szachownicy.",
-		"answerDescription": "Po zamalowaniu kratek – według wskazanych współrzędnych – powstaje obrazek wieży szachowej. Rozwiązaniem jest bierka oddalona od niej o 2 pionki."
+		"answerDescription": "Po zamalowaniu kratek – według wskazanych współrzędnych – powstaje obrazek wieży szachowej. Rozwiązaniem jest bierka oddalona od niej o 2 pionki.",
+		"tips": [
+			"Zamalowane kratki wygladają jak z szachownicy."
+		]
 	},
 	{
 		"answer": "624",
 		"key": "ciepło",
-		"tip": "Szukaj dna na górze i uniknij śmierci.",
-		"answerDescription": "Należy przejść od jednego obrazka reprezentującego czas do drugiego obrazka reprezentującego czas, ale po drodze skręcić w stronę obrazka DNA, aby uniknąć przejścia przez obrazek symbolizujący śmierć. Rozwiązaniem są numery tych obrazków."
+		"answerDescription": "Należy przejść od jednego obrazka reprezentującego czas do drugiego obrazka reprezentującego czas, ale po drodze skręcić w stronę obrazka DNA, aby uniknąć przejścia przez obrazek symbolizujący śmierć. Rozwiązaniem są numery tych obrazków.",
+		"tips": [
+			"Szukaj dna na górze i uniknij śmierci."
+		]
 	},
 	{
 		"answer": "808902",
 		"key": "wodór",
-		"tip": "Niektóre słowa ukryte są pionowo.",
-		"answerDescription": "Na tablicy należy odnaleźć słowa, których opisy uzyskamy po wstawieniu kluczy z poprzednich zagadek. Obok każdego z tych słów (to: mrok, bieg, echo) znajduje się liczba dwucyfrowa. Liczby te po wymnożeniu dają rozwiązanie."
+		"answerDescription": "Na tablicy należy odnaleźć słowa, których opisy uzyskamy po wstawieniu kluczy z poprzednich zagadek. Obok każdego z tych słów (to: mrok, bieg, echo) znajduje się liczba dwucyfrowa. Liczby te po wymnożeniu dają rozwiązanie.",
+		"tips": [
+			"Niektóre słowa ukryte są pionowo."
+		]
 	},
 	{
 		"answer": "nelt",
 		"key": "Oni nas widzą...",
-		"tip": "Najpierw fizyka, potem chemia.",
-		"answerDescription": "Pod wpływem ciepła lód roztapia się, tworząc wodę. Gdy z wody zostanie usunięty wodór, otrzymuje się tlen."
+		"answerDescription": "Pod wpływem ciepła lód roztapia się, tworząc wodę. Gdy z wody zostanie usunięty wodór, otrzymuje się tlen.",
+		"tips": [
+			"Najpierw fizyka, potem chemia."
+		]
 	},
 	{
 		"answer": "sutkak",
 		"key": "znak",
-		"tip": "To jest przepis na rysunek.",
-		"answerDescription": "Rysując zgodnie z opisem, jakby były to kroki po kratkach kartki zeszytu, wraz z długościami kresek otrzymuje się rysunek rozwiązania."
+		"answerDescription": "Rysując zgodnie z opisem, jakby były to kroki po kratkach kartki zeszytu, wraz z długościami kresek otrzymuje się rysunek rozwiązania.",
+		"tips": [
+			"To jest przepis na rysunek."
+		]
 	},
 	{
 		"answer": "hcud",
 		"key": "jard",
-		"tip": "Zamaluj kropki.",
-		"answerDescription": "Po zamalowaniu pól z kropką widoczny będzie obrazek ducha z gry „Pacman”."
+		"answerDescription": "Po zamalowaniu pól z kropką widoczny będzie obrazek ducha z gry „Pacman”.",
+		"tips": [
+			"Zamaluj kropki."
+		]
 	},
 	{
 		"answer": "dzajan",
 		"key": "rok",
-		"tip": "Pod niektórymi literami jest bezdenna przepaść...",
-		"answerDescription": "Po wpisaniu kluczy w odpowiednie miejsca należy przesunąć każdą literę na dno zawierającej ją dziury – zgodnie z podpowiedzią o grawitacji. Niektóre litery wypadną poza kartkę, pozostałe zaś, czytane kolejno (wersami), dadzą rozwiązanie."
+		"answerDescription": "Po wpisaniu kluczy w odpowiednie miejsca należy przesunąć każdą literę na dno zawierającej ją dziury – zgodnie z podpowiedzią o grawitacji. Niektóre litery wypadną poza kartkę, pozostałe zaś, czytane kolejno (wersami), dadzą rozwiązanie.",
+		"tips": [
+			"Pod niektórymi literami jest bezdenna przepaść..."
+		]
 	},
 	{
 		"answer": "541",
 		"key": "wenus",
-		"tip": "Kineograf wskazuje interesujące liczby.",
-		"answerDescription": "Należy przewertować książkę od początku, patrząc na lewy dolny róg lewych stron. Utworzy ona wówczas kineograf (ang. flipbook), który wskaże kształt litery W. Po zsumowaniu liczb z miejsc, które leżą na linii wskazanego kształtu, otrzymuje się rozwiązanie."
+		"answerDescription": "Należy przewertować książkę od początku, patrząc na lewy dolny róg lewych stron. Utworzy ona wówczas kineograf (ang. flipbook), który wskaże kształt litery W. Po zsumowaniu liczb z miejsc, które leżą na linii wskazanego kształtu, otrzymuje się rozwiązanie.",
+		"tips": [
+			"Kineograf wskazuje interesujące liczby."
+		]
 	},
 	{
 		"answer": "agawonwór",
 		"key": "monolit",
-		"tip": "Połóż tu coś, co trwa dokładnie 74 minuty.",
-		"answerDescription": "Długość ścieżki dźwiękowej zapisanej na płycie CD wynosi do 74 minut. Położywszy płytę w wyznaczonym miejscu, wzdłuż jej krawędzi można odczytać rozwiązanie."
+		"answerDescription": "Długość ścieżki dźwiękowej zapisanej na płycie CD wynosi do 74 minut. Położywszy płytę w wyznaczonym miejscu, wzdłuż jej krawędzi można odczytać rozwiązanie.",
+		"tips": [
+			"Połóż tu coś, co trwa dokładnie 74 minuty."
+		]
 	},
 	{
 		"answer": "7,422",
 		"key": "myśl",
-		"tip": "Ile trwa dni?",
-		"answerDescription": "Rozwiązaniem jest okres obiegu Wenus wokół słońca, czyli rok na Wenus, wyrażony w ziemskich dniach."
+		"answerDescription": "Rozwiązaniem jest okres obiegu Wenus wokół słońca, czyli rok na Wenus, wyrażony w ziemskich dniach.",
+		"tips": [
+			"Ile trwa dni?"
+		]
 	},
 	{
 		"answer": "ym ot ino",
 		"key": "Gratulacje!",
-		"tip": "Tylko niektóre litery warto czytać.",
-		"answerDescription": "Po wypisaniu kluczy oznaczone ciemnymi symbolami litery utworzą rozwiązanie."
+		"answerDescription": "Po wypisaniu kluczy oznaczone ciemnymi symbolami litery utworzą rozwiązanie.",
+		"tips": [
+			"Tylko niektóre litery warto czytać."
+		]
 	}
 ]

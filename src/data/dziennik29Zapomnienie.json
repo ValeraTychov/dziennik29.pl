@@ -2,62 +2,62 @@
 	{
 		"answer": "9831",
 		"key": "cztery",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "GEIB",
 		"key": "dwa",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "7536",
 		"key": "klan",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "061",
 		"key": "spec",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "kęj",
 		"key": "wilk",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "yzrt",
 		"key": "mops",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "ycbo",
 		"key": "kamienie",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "jam",
 		"key": "cisza",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "161",
 		"key": "względność",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "enad",
 		"key": "chemia",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "anarbmem",
 		"key": "siedem",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "tal ots",
 		"key": "klasyk",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": {
@@ -65,122 +65,122 @@
 			"customValidator": "puzzle133"
 		},
 		"key": "piątka",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "31",
 		"key": "1000",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "43573",
 		"key": "kros",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "5233",
 		"key": "królik",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "katp",
 		"key": "machina",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "naryt",
 		"key": "ślina",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "amzyrahc",
 		"key": "utarg",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "6211",
 		"key": "fort",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "613468641",
 		"key": "pierwsze",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "noip",
 		"key": "następna",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "lec",
 		"key": "nobel",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "koms",
 		"key": "wodospad",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "450",
 		"key": "2000",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "kos",
 		"key": "zapal",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "ceżorondej",
 		"key": "publikacja",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "ozależ",
 		"key": "1982",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "onreb",
 		"key": "argon",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "ulka",
 		"key": "purchase",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "pots",
 		"key": "one",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "888",
 		"key": "dial",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "127945",
 		"key": "patrz",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "823",
 		"key": "lipa",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "noitpeced",
 		"key": "gra",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "soahc",
 		"key": "góra",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": [
@@ -188,21 +188,21 @@
 			"7"
 		],
 		"key": "dolina",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "45325",
 		"key": "nit",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "mad",
 		"key": "ulicznik",
-		"tip": ""
+		"tips": []
 	},
 	{
 		"answer": "einatiwś",
 		"key": "",
-		"tip": ""
+		"tips": []
 	}
 ]
