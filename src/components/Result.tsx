@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { useGameStore } from '../store/GameStore';
 
-const specialResults: Record<string, JSX.Element> = {
-	'd29-1-finale': (
+const specialResults: Record<string, () => JSX.Element> = {
+	'd29-1-finale': () => (
 		<div className="special-result">
 			<p className="special-result__line special-result__line--bold">Congratulations!</p>
 			<p className="special-result__line">Zrobiłeś to! Udało ci się rozszyfrować zapiski zespołu archeologów i krok po kroku zbliżyć się do rozwiązania tajemnicy. Dzięki swojej wytrwałości, odwadze i sprytowi rozwiązałeś wszystkie zagadki, ale ostateczny klucz wciąż nie został znaleziony!</p>
@@ -16,10 +16,10 @@ const specialResults: Record<string, JSX.Element> = {
 			<p className="special-result__line">To jeszcze nie koniec przygody z Dziennikiem 29…</p>
 		</div>
 	),
-	'd29-2-finale': (
+	'd29-2-finale': () => (
 		<div className="special-result">
 			<a
-				className="special-result__link special-result__link--plain"
+				className="special-result__link"
 				href="https://journal29.com/120/thefinalpage/"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -29,7 +29,7 @@ const specialResults: Record<string, JSX.Element> = {
 			<p className="special-result__line">Oficjalna strona polskiego wydania Dziennika29 jest już niedostępna. Dlatego kierujemy Cię na oryginalną, anglojęzyczną stronę finałową — najbardziej uważnych badaczy czeka tam niespodzianka.</p>
 		</div>
 	),
-	'd29-3-finale': (
+	'd29-3-finale': () => (
 		<div className="special-result">
 			<p className="special-result__line special-result__line--bold">Gratulacje!</p>
 			<p className="special-result__line">Zakończyłeś przygodę zaklętą w kartach Dziennika29 Zapomnienie.</p>
@@ -64,11 +64,11 @@ const Result = () => {
 		setValue('result', '');
 	}, [currentPage, setValue]);
 
-	const special = specialResult ? specialResults[specialResult] : null;
+	const Special = specialResult ? specialResults[specialResult] : null;
 
 	return (
 		<div className="container container--narrow">
-			{special ?? <div className={resultClasses}>{result}</div>}
+			{Special ? <Special /> : <div className={resultClasses}>{result}</div>}
 		</div>
 	);
 };
