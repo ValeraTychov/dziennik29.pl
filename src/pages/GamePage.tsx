@@ -19,15 +19,17 @@ useGameStore.getState().setKeys(pages);
 
 const GamePage = () => {
 	const { pageId } = useParams();
-	const totalPages = useGameStore((state) => state.totalPages);
 	const setValue = useGameStore((state) => state.setValue);
-	const pageNum = Number(pageId ?? 0);
+
+	const pageIndex = pageId !== undefined
+		? pages.findIndex((p) => p.id === pageId)
+		: 0;
 
 	useEffect(() => {
-		setValue('currentPage', pageNum);
-	}, [pageNum, setValue]);
+		if (pageIndex !== -1) setValue('currentPage', pageIndex);
+	}, [pageIndex, setValue]);
 
-	if (pageId !== undefined && (!/^\d+$/.test(pageId) || pageNum >= totalPages)) return <NotFound />;
+	if (pageId !== undefined && pageIndex === -1) return <NotFound />;
 
 	return (
 		<>

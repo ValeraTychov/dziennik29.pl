@@ -3,10 +3,11 @@ import whiteLogo from '../assets/whiteLogo.png';
 import dziennik29Data from '../data/dziennik29.json';
 import dziennik29PrzebudzenieData from '../data/dziennik29Przebudzenie.json';
 
-const getBrandContent = (id?: number) => {
-	const dziennik29Length = dziennik29Data.length;
-	const dziennik29PrzebudzenieLength = dziennik29Length + dziennik29PrzebudzenieData.length;
-	if (!id || id < dziennik29Length) {
+const dziennik29Ids = new Set(dziennik29Data.map((p) => p.id));
+const przebudzenieIds = new Set(dziennik29PrzebudzenieData.map((p) => p.id));
+
+const getBrandContent = (pageId?: string) => {
+	if (!pageId || dziennik29Ids.has(pageId)) {
 		return (
 			<>
 				<img src={whiteLogo} alt="Dziennik 29" />
@@ -14,7 +15,7 @@ const getBrandContent = (id?: number) => {
 		);
 	}
 
-	const subtitle = id >= dziennik29PrzebudzenieLength ? 'Zapomnienie' : 'Przebudzenie';
+	const subtitle = przebudzenieIds.has(pageId) ? 'Przebudzenie' : 'Zapomnienie';
 	return (
 		<>
 			<span className="line">
@@ -29,13 +30,12 @@ const getBrandContent = (id?: number) => {
 
 const Header = () => {
 	const { pageId } = useParams();
-	const id = Number(pageId);
 
 	return (
 		<header className="header">
 			<div className="nav">
 				<Link className="brand" to="/" aria-label="Strona główna">
-					{getBrandContent(isNaN(id) ? undefined : id)}
+					{getBrandContent(pageId)}
 				</Link>
 			</div>
 		</header>

@@ -1,65 +1,86 @@
 [
+		{
+		"id": "xxx",
+		"answer": "92",
+		"key": "nowe wspomnienie",
+		"tips": [
+			"To powinno być proste, matematyczne zadanie."
+		]
+	},
 	{
+		"id": "121",
 		"answer": "9831",
 		"key": "cztery",
 		"tips": []
 	},
 	{
+		"id": "122",
 		"answer": "GEIB",
 		"key": "dwa",
 		"tips": []
 	},
 	{
+		"id": "123",
 		"answer": "7536",
 		"key": "klan",
 		"tips": []
 	},
 	{
+		"id": "124",
 		"answer": "061",
 		"key": "spec",
 		"tips": []
 	},
 	{
+		"id": "125",
 		"answer": "kęj",
 		"key": "wilk",
 		"tips": []
 	},
 	{
+		"id": "126",
 		"answer": "yzrt",
 		"key": "mops",
 		"tips": []
 	},
 	{
+		"id": "127",
 		"answer": "ycbo",
 		"key": "kamienie",
 		"tips": []
 	},
 	{
+		"id": "128",
 		"answer": "jam",
 		"key": "cisza",
 		"tips": []
 	},
 	{
+		"id": "129",
 		"answer": "161",
 		"key": "względność",
 		"tips": []
 	},
 	{
+		"id": "130",
 		"answer": "enad",
 		"key": "chemia",
 		"tips": []
 	},
 	{
+		"id": "131",
 		"answer": "anarbmem",
 		"key": "siedem",
 		"tips": []
 	},
 	{
+		"id": "132",
 		"answer": "tal ots",
 		"key": "klasyk",
 		"tips": []
 	},
 	{
+		"id": "133",
 		"answer": {
 			"value": "6493 - 6463 userkaz z abzcil anlowoD",
 			"customValidator": "puzzle133"
@@ -68,121 +89,147 @@
 		"tips": []
 	},
 	{
+		"id": "134",
 		"answer": "31",
 		"key": "1000",
 		"tips": []
 	},
 	{
+		"id": "135",
 		"answer": "43573",
 		"key": "kros",
 		"tips": []
 	},
 	{
+		"id": "136",
 		"answer": "5233",
 		"key": "królik",
 		"tips": []
 	},
 	{
+		"id": "137",
 		"answer": "katp",
 		"key": "machina",
 		"tips": []
 	},
 	{
+		"id": "138",
 		"answer": "naryt",
 		"key": "ślina",
 		"tips": []
 	},
 	{
+		"id": "139",
 		"answer": "amzyrahc",
 		"key": "utarg",
 		"tips": []
 	},
 	{
+		"id": "140",
 		"answer": "6211",
 		"key": "fort",
 		"tips": []
 	},
 	{
+		"id": "141",
 		"answer": "613468641",
 		"key": "pierwsze",
 		"tips": []
 	},
 	{
+		"id": "142",
 		"answer": "noip",
 		"key": "następna",
 		"tips": []
 	},
 	{
+		"id": "143",
 		"answer": "lec",
 		"key": "nobel",
 		"tips": []
 	},
 	{
+		"id": "144",
 		"answer": "koms",
 		"key": "wodospad",
 		"tips": []
 	},
 	{
+		"id": "145",
 		"answer": "450",
 		"key": "2000",
 		"tips": []
 	},
 	{
+		"id": "146",
 		"answer": "kos",
 		"key": "zapal",
 		"tips": []
 	},
 	{
+		"id": "147",
 		"answer": "ceżorondej",
 		"key": "publikacja",
 		"tips": []
 	},
 	{
+		"id": "148",
 		"answer": "ozależ",
 		"key": "1982",
 		"tips": []
 	},
 	{
+		"id": "149",
 		"answer": "onreb",
 		"key": "argon",
 		"tips": []
 	},
 	{
+		"id": "150",
 		"answer": "ulka",
 		"key": "purchase",
 		"tips": []
 	},
 	{
+		"id": "151",
 		"answer": "pots",
 		"key": "one",
 		"tips": []
 	},
 	{
+		"id": "152",
 		"answer": "888",
 		"key": "dial",
+		"d29key": "wybierz",
 		"tips": []
 	},
 	{
+		"id": "153",
 		"answer": "127945",
 		"key": "patrz",
 		"tips": []
 	},
 	{
+		"id": "154",
 		"answer": "823",
 		"key": "lipa",
 		"tips": []
 	},
 	{
+		"id": "155",
 		"answer": "noitpeced",
 		"key": "gra",
+		"d29answer": "owtsuzso",
 		"tips": []
 	},
 	{
+		"id": "156",
 		"answer": "soahc",
 		"key": "góra",
 		"tips": []
 	},
 	{
+		"id": "157",
 		"answer": [
 			"medeis",
 			"7"
@@ -191,16 +238,19 @@
 		"tips": []
 	},
 	{
+		"id": "158",
 		"answer": "45325",
 		"key": "nit",
 		"tips": []
 	},
 	{
+		"id": "159",
 		"answer": "mad",
 		"key": "ulicznik",
 		"tips": []
 	},
 	{
+		"id": "160",
 		"answer": "einatiwś",
 		"key": "",
 		"tips": []

@@ -1,5 +1,6 @@
 [
 	{
+		"id": "0",
 		"answer": "92",
 		"key": "Brawo!",
 		"answerDescription": "Dodanie dwóch liczb da rozwiązanie.",
@@ -8,6 +9,7 @@
 		]
 	},
 	{
+		"id": "1",
 		"answer": "awak",
 		"key": "torbiel",
 		"answerDescription": "Ślad w książce wygląda, jakby postawiono na niej kubek z kawą.",
@@ -16,6 +18,7 @@
 		]
 	},
 	{
+		"id": "2",
 		"answer": "bolg",
 		"key": "szyny",
 		"answerDescription": "Po obróceniu książki do góry nogami cyfry można odczytać jako litery.",
@@ -24,6 +27,7 @@
 		]
 	},
 	{
+		"id": "3",
 		"answer": "anerfehC adimariP",
 		"key": "czerwień",
 		"answerDescription": "Podane liczby to współrzędne GPS wskazujące położenie piramidy Chefrena.",
@@ -32,6 +36,7 @@
 		]
 	},
 	{
+		"id": "4",
 		"answer": "żór",
 		"key": "wataha",
 		"answerDescription": "Po odjęciu od słowa torbiel cząstki tor- (której synonim to: szyny) uzyskuje się słowo biel. Biel dodana do czerwieni daje róż.",
@@ -40,6 +45,7 @@
 		]
 	},
 	{
+		"id": "5",
 		"answer": "9521648",
 		"key": "żelazo",
 		"answerDescription": "Czytając litery spiralnie (od zewnątrz do środka), można odczytać kolejne liczby.",
@@ -48,6 +54,7 @@
 		]
 	},
 	{
+		"id": "6",
 		"answer": "2653589",
 		"key": "cynk",
 		"answerDescription": "Wypisane cyfry to kolejne cyfry liczby pi. Niektóre z nich są błędne – odpowiedzią są zaś poprawne wartości.",
@@ -56,6 +63,7 @@
 		]
 	},
 	{
+		"id": "7",
 		"answer": "06936",
 		"key": "iluzja",
 		"answerDescription": "W układzie okresowym każdy pierwiastek chemiczny ma swój numer. Wymnażając te przypisane numery, uzyskuje się odpowiedź.",
@@ -64,6 +72,7 @@
 		]
 	},
 	{
+		"id": "8",
 		"answer": "naidysbo",
 		"key": "nie",
 		"answerDescription": "Podążając jedyną możliwą trasą do środka labiryntu, odczytuje się kolejne litery hasła.",
@@ -72,6 +81,7 @@
 		]
 	},
 	{
+		"id": "9",
 		"answer": "OCFTI93",
 		"key": "pyta",
 		"answerDescription": "Oba opisy utworzone są według wzoru: telefoniczny numer kierunkowy, dwuliterowa nazwa krajowej domeny internetowej, kod IATA lotniska w mieście. Koloseum wskazuje, że chodzi o włoskie miasto Rzym.",
@@ -80,6 +90,7 @@
 		]
 	},
 	{
+		"id": "10",
 		"answer": "eraepsekahS",
 		"key": "strach",
 		"answerDescription": "„Oto jest pytanie” to cytat ze sztuki „Hamlet” autorstwa Williama Szekspira. Hasłem jest nazwisko autora.",
@@ -88,6 +99,7 @@
 		]
 	},
 	{
+		"id": "11",
 		"answer": "einatswop",
 		"key": "odwar",
 		"answerDescription": "Symbole na obrazku przestawione są w takim samym układzie jak ten, który stosowany jest w klawiaturze komputerowej. Wskazuje to na przypisanie liter do znaków. Kolejne znaki w pierwszym wierszu to QWERTY...",
@@ -96,6 +108,7 @@
 		]
 	},
 	{
+		"id": "12",
 		"answer": "atulaw",
 		"key": "bomba",
 		"answerDescription": "Rozwiązanie sudoku 6x6 pozwala odczytać symbole (a przez to – liczby) odpowiadające poszczególnym kluczom. Każdemu kluczowi przypisane są dwie liczby – wskazują one, które litery z klucza należy przeczytać, aby uzyskać rozwiązanie.",
@@ -104,6 +117,7 @@
 		]
 	},
 	{
+		"id": "13",
 		"answer": "einawodrabmob",
 		"key": "gaz",
 		"answerDescription": "Zmieniając kolejność liter w środkowym kluczu w taki sam sposób jak w środkowym napisie, uzyskuje się rozwiązanie.",
@@ -112,6 +126,7 @@
 		]
 	},
 	{
+		"id": "14",
 		"answer": "obein",
 		"key": "motyka",
 		"answerDescription": "Rozwiązanie jest zapisane przy użyciu znaków alfabetu Braille'a.",
@@ -120,6 +135,7 @@
 		]
 	},
 	{
+		"id": "15",
 		"answer": "zsym",
 		"key": "syrena",
 		"answerDescription": "Po połączeniu kropek widać słonia. Według popularnej teorii słonie najbardziej boją się myszy.",
@@ -128,6 +144,7 @@
 		]
 	},
 	{
+		"id": "16",
 		"answer": "atemok",
 		"key": "lot",
 		"answerDescription": "Jest to gra typu mastermind, tylko z literami zamiast klasycznych kolorów. Istnieje kilka dróg prowadzących do rozwiązania: można zacząć od porównania księgi z ostatnią linijką, następnie księgi i egoizmu, a później – klucza 14 z egoizmem.",
@@ -136,6 +153,7 @@
 		]
 	},
 	{
+		"id": "17",
 		"answer": "sraM",
 		"key": "dopalacz",
 		"answerDescription": "Rysunek przedstawia schemat planet Układu Słonecznego – z zaznaczoną czwartą planetą.",
@@ -144,6 +162,7 @@
 		]
 	},
 	{
+		"id": "18",
 		"answer": "raimzeb",
 		"key": "molekuła",
 		"answerDescription": "Rozwiązanie zostało zapisane w dużym rozciągnięciu, tak że da się je odczytać jedynie po zbliżeniu książki do nosa i nachyleniu jej pod dużym kątem.",
@@ -152,6 +171,7 @@
 		]
 	},
 	{
+		"id": "19",
 		"answer": "81",
 		"key": "lustro",
 		"answerDescription": "Przypisując literom kolejne liczby, można obliczyć odległość pomiędzy literami – czyli różnicę przypisanych im liczb. Po zsumowaniu wszystkich różnic otrzymuje się rozwiązanie.",
@@ -160,6 +180,7 @@
 		]
 	},
 	{
+		"id": "20",
 		"answer": "865924553",
 		"key": "port",
 		"answerDescription": "Klawiatura telefonu przypisuje każdej cyfrze kilka liter. Przypisując literom i kluczom odpowiadające im cyfry i ciągi liczbowe, uzyskuje się numer telefonu stanowiący hasło.",
@@ -168,6 +189,7 @@
 		]
 	},
 	{
+		"id": "21",
 		"answer": "azdeiw",
 		"key": "stos",
 		"answerDescription": "Trójki liczb pod tekstem wskazują, które litery należy przeczytać. Kolejne liczby w trójce opisują: wiersz, słowo i literę.",
@@ -176,6 +198,7 @@
 		]
 	},
 	{
+		"id": "22",
 		"answer": "772",
 		"key": "pionki",
 		"answerDescription": "W słowach – wypisanych jedno nad drugim – występują pary liter: pierwsza litera pierwszego słowa łączy się z pierwszą literą drugiego słowa itd. Po połączeniu kropek na obrazku, zgodnie z parami wskazanymi przez słowa, otrzymuje się rozwiązanie.",
@@ -184,6 +207,7 @@
 		]
 	},
 	{
+		"id": "23",
 		"answer": "425893",
 		"key": "deficyt",
 		"answerDescription": "Koń szachowy, narysowany w prawym dolnym rogu, porusza się w stronę celu znajdującego się w lewym górnym rogu. Skacząc po cyfrach zgodnie z zasadami szachowymi, koń wskazuje rozwiązanie.",
@@ -192,6 +216,7 @@
 		]
 	},
 	{
+		"id": "24",
 		"answer": "tamotua",
 		"key": "jedwab",
 		"answerDescription": "Na stronie narysowane są połowy liter. Po przyłożeniu prawej krawędzi książki do lustra można odczytać rozwiązanie.",
@@ -200,6 +225,7 @@
 		]
 	},
 	{
+		"id": "25",
 		"answer": [
 			"461,01",
 			"461.01"
@@ -211,6 +237,7 @@
 		]
 	},
 	{
+		"id": "26",
 		"answer": "regnidorhcS",
 		"key": "dwa",
 		"answerDescription": "W obrazku kota są umieszczone napisy: martwy i żywy. Jest to nawiązanie do eksperymentu myślowego opublikowanego przez Erwina Schrödingera.",
@@ -219,6 +246,7 @@
 		]
 	},
 	{
+		"id": "27",
 		"answer": "936131",
 		"key": "pięć",
 		"answerDescription": "Każdej części ciała przypisana jest liczba. Każdy sektor to opis rysunku według schematu. Schematem są trzy pary liczb: liczba wystąpień części ciała i liczba oznaczająca tę część. Rozwiązaniem jest analogiczny opis dolnego sektora.",
@@ -227,6 +255,7 @@
 		]
 	},
 	{
+		"id": "28",
 		"answer": "853",
 		"key": "tlen",
 		"answerDescription": "Należy potraktować rysunek, jakby był schematem wyświetlacza LED. Zapisując nań kolejne cyfry wskazane przez klucze, otrzymuje się zbiór liczb, które należy zsumować, aby poznać rozwiązanie.",
@@ -235,6 +264,7 @@
 		]
 	},
 	{
+		"id": "29",
 		"answer": "82188",
 		"key": "prom",
 		"answerDescription": "Należy przyłożyć ołówek we wskazanym miejscu. Światło (na przykład z latarki w komórce) świecące ze wskazanych miejsc spowoduje, że ołówek rzuci cień na kolejne liczby.",
@@ -243,6 +273,7 @@
 		]
 	},
 	{
+		"id": "30",
 		"answer": "67891",
 		"key": "etap",
 		"answerDescription": "Należy złożyć narożniki dwóch kolejnych stron książki – tak, aby uzupełnić dziurę w rysunku. Złożone obrazki utworzą liczbę będącą hasłem.",
@@ -251,6 +282,7 @@
 		]
 	},
 	{
+		"id": "31",
 		"answer": "awon",
 		"key": "grzbiet",
 		"answerDescription": "Klucze wskazują, którym symbolom należy przypisać które litery. W rozwiązaniu użyty jest symbol oznaczający literę M, ale umieszczony do góry nogami. Należy potraktować go zatem jako W.",
@@ -259,6 +291,7 @@
 		]
 	},
 	{
+		"id": "32",
 		"answer": "gdn",
 		"key": "rozpad",
 		"answerDescription": "Każdy ciąg składa się z pierwszych liter znanych ciągów słów. Są to kolejno: dni tygodnia (poniedziałek, wtorek...), liczby (jeden, dwa...) oraz miesiące (styczeń, luty...).",
@@ -267,6 +300,7 @@
 		]
 	},
 	{
+		"id": "33",
 		"answer": "123894",
 		"key": "lina",
 		"answerDescription": "Na końcu książki, w rozdziale: „Notatki”, są do wycięcia takie same kształty. Gdy zostaną ułożone we wskazanych miejscach, dodatkowe linie utworzą liczby stanowiące hasło.",
@@ -275,6 +309,7 @@
 		]
 	},
 	{
+		"id": "34",
 		"answer": "zculk",
 		"key": "długopis",
 		"answerDescription": "Pod wskazanym adresem znajduje się film, na którym jasny punkt obrysowuje kształt klucza.",
@@ -283,6 +318,7 @@
 		]
 	},
 	{
+		"id": "35",
 		"answer": "comop",
 		"key": "dzień",
 		"answerDescription": "Patrząc pod światło przez jasne okienka lub wycinając je, widać litery na następnej stronie. Litery te – czytane kolejno – utworzą rozwiązanie.",
@@ -291,6 +327,7 @@
 		]
 	},
 	{
+		"id": "36",
 		"answer": "tknup",
 		"key": "on",
 		"answerDescription": "Na grzbiecie książki umieszczony jest napis zapisany alfabetem Morse'a. Po transkrypcji uzyskuje się rozwiązanie.",
@@ -299,6 +336,7 @@
 		]
 	},
 	{
+		"id": "37",
 		"answer": "nogatnep",
 		"key": "ostatni",
 		"answerDescription": "Klucze należy przetłumaczyć na odpowiednie języki (angielski, niemiecki, polski). Łącznie dają rozwiązanie.",
@@ -307,6 +345,7 @@
 		]
 	},
 	{
+		"id": "38",
 		"answer": "0542331",
 		"key": "płaz",
 		"answerDescription": "Trzeba odneleźć zagadki, w których występują pokazane na tej stronie symbole (symbole te pojawiają się we wcześniejszych i późniejszych zagadkach). Po wymnożeniu numerów zagadek, w których pojawiły się symbole, uzyskuje się rozwiązanie.",
@@ -315,6 +354,7 @@
 		]
 	},
 	{
+		"id": "39",
 		"answer": "snes",
 		"key": "akr",
 		"answerDescription": "Po zagięciu strony – tak, aby wzór na górze dopełnił obrazek – z symboli poniżej powstaną litery stanowiące rozwiązanie.",
@@ -323,6 +363,7 @@
 		]
 	},
 	{
+		"id": "40",
 		"answer": "zrakłap",
 		"key": "parzyste",
 		"answerDescription": "Należy przeczytać litery kluczy naprzemiennie – tak, jakby słowa zazębiały się.",
@@ -331,6 +372,7 @@
 		]
 	},
 	{
+		"id": "41",
 		"answer": "28619",
 		"key": "lipa",
 		"answerDescription": "Aby odczytać pięć cyfr tworzących rozwiązanie, należy przypatrzeć się kolejnym fragmentom rysunku. Pogrubione fragmenty linii wskazują istotne fragmenty rysunku.",
@@ -339,6 +381,7 @@
 		]
 	},
 	{
+		"id": "42",
 		"answer": "ipzc",
 		"key": "liść",
 		"answerDescription": "Symbole (do ich transkrypcji należy wykorzystać opis z zagadki 11) wskazują dwuliterowe skróty nazw dni tygodnia przypisane do dat. Należy sprawdzić, w które dni tygodnia wypadły pozostałe dwie daty.",
@@ -347,6 +390,7 @@
 		]
 	},
 	{
+		"id": "43",
 		"answer": "60901",
 		"key": "odwrotnie",
 		"answerDescription": "Każda liczba składa się z dwóch części opisujących łącznie oba przypisane słowa. Pogrubiona część to całkowita liczba liter; dalsza część wskazuje liczbę wystąpień litery I (i). Wymnożenie tych wartości daje rozwiązanie.",
@@ -355,6 +399,7 @@
 		]
 	},
 	{
+		"id": "44",
 		"answer": "gpdg",
 		"key": "uskok",
 		"answerDescription": "Symbole są strzałkami kierunkowymi: l – lewo, g – góra, p – prawo, d – dół. Litery na dole to opis kolejnych strzałek (czytając od góry).",
@@ -363,6 +408,7 @@
 		]
 	},
 	{
+		"id": "45",
 		"answer": "021882",
 		"key": "obłok",
 		"answerDescription": "Dla każdego układu ustala się, co pokaże wskazówka, i wymnaża wskazane liczby. Kierunek obrotu koła pokazuje strzałka, ale – zgodnie z informacją z kluczy – kołami o numerach parzystych należy kręcić w przeciwną stronę.",
@@ -371,6 +417,7 @@
 		]
 	},
 	{
+		"id": "46",
 		"answer": "9258292941",
 		"key": "światła",
 		"answerDescription": "Cyfry są przyporządkowane do pierwszych liter słów. Gdy – analogicznie – zostaną przypisane do kluczy, utworzą rozwiązanie.",
@@ -379,6 +426,7 @@
 		]
 	},
 	{
+		"id": "47",
 		"answer": "somsok",
 		"key": "wiek",
 		"answerDescription": "Obrazki górny i dolny różnią się w trzech miejscach. Współrzędne tych miejsc, czytane kolejno, utworzą rozwiązanie.",
@@ -387,6 +435,7 @@
 		]
 	},
 	{
+		"id": "48",
 		"answer": "621293",
 		"key": "eon",
 		"answerDescription": "Przytoczony fragment pochodzi z tekstu o czasie. To podpowiedź, aby czarne kreski przy lewej krawędzi słupa potraktować jako wskazówki zegarów.",
@@ -395,6 +444,7 @@
 		]
 	},
 	{
+		"id": "49",
 		"answer": "2576790",
 		"key": "chód",
 		"answerDescription": "Symbole (do ich transkrypcji należy użyć opisu z zagadki 11) przypisują liczby literom. Rozwiązaniem są liczby przypisane wskazanym kluczom.",
@@ -403,6 +453,7 @@
 		]
 	},
 	{
+		"id": "50",
 		"answer": "9701",
 		"key": "zwierzę",
 		"answerDescription": "Kolejne pary wierszy są połowami zapisów liczbowych w systemie rzymskim. Po zsunięciu wierszy – tak, aby utworzyły pełne liczby – należy zsumować wszystkie zapisy.",
@@ -411,6 +462,7 @@
 		]
 	},
 	{
+		"id": "51",
 		"answer": "6383",
 		"key": "słońce",
 		"answerDescription": "Pod podanym adresem internetowym znajduje się nagranie liczb wraz z wizualizacją ich fal dźwiękowych. Na tej podstawie obrazowi z zagadki przypisuje się kolejne cyfry tworzące rozwiązanie.",
@@ -419,6 +471,7 @@
 		]
 	},
 	{
+		"id": "52",
 		"answer": "9691",
 		"key": "głos",
 		"answerDescription": "Każdemu z kluczy należy przypisać słowo o przeciwnym znaczeniu. W ten sposób powstaje pytanie o pierwszego człowieka na księżycu. Napis na dole wskazuje, że chodzi o datę roczną lądowania.",
@@ -427,6 +480,7 @@
 		]
 	},
 	{
+		"id": "53",
 		"answer": "ceinog",
 		"key": "lód",
 		"answerDescription": "Po zamalowaniu kratek – według wskazanych współrzędnych – powstaje obrazek wieży szachowej. Rozwiązaniem jest bierka oddalona od niej o 2 pionki.",
@@ -435,6 +489,7 @@
 		]
 	},
 	{
+		"id": "54",
 		"answer": "624",
 		"key": "ciepło",
 		"answerDescription": "Należy przejść od jednego obrazka reprezentującego czas do drugiego obrazka reprezentującego czas, ale po drodze skręcić w stronę obrazka DNA, aby uniknąć przejścia przez obrazek symbolizujący śmierć. Rozwiązaniem są numery tych obrazków.",
@@ -443,6 +498,7 @@
 		]
 	},
 	{
+		"id": "55",
 		"answer": "808902",
 		"key": "wodór",
 		"answerDescription": "Na tablicy należy odnaleźć słowa, których opisy uzyskamy po wstawieniu kluczy z poprzednich zagadek. Obok każdego z tych słów (to: mrok, bieg, echo) znajduje się liczba dwucyfrowa. Liczby te po wymnożeniu dają rozwiązanie.",
@@ -451,6 +507,7 @@
 		]
 	},
 	{
+		"id": "56",
 		"answer": "nelt",
 		"key": "Oni nas widzą...",
 		"answerDescription": "Pod wpływem ciepła lód roztapia się, tworząc wodę. Gdy z wody zostanie usunięty wodór, otrzymuje się tlen.",
@@ -459,6 +516,7 @@
 		]
 	},
 	{
+		"id": "57",
 		"answer": "sutkak",
 		"key": "znak",
 		"answerDescription": "Rysując zgodnie z opisem, jakby były to kroki po kratkach kartki zeszytu, wraz z długościami kresek otrzymuje się rysunek rozwiązania.",
@@ -467,6 +525,7 @@
 		]
 	},
 	{
+		"id": "58",
 		"answer": "hcud",
 		"key": "jard",
 		"answerDescription": "Po zamalowaniu pól z kropką widoczny będzie obrazek ducha z gry „Pacman”.",
@@ -475,6 +534,7 @@
 		]
 	},
 	{
+		"id": "59",
 		"answer": "dzajan",
 		"key": "rok",
 		"answerDescription": "Po wpisaniu kluczy w odpowiednie miejsca należy przesunąć każdą literę na dno zawierającej ją dziury – zgodnie z podpowiedzią o grawitacji. Niektóre litery wypadną poza kartkę, pozostałe zaś, czytane kolejno (wersami), dadzą rozwiązanie.",
@@ -483,6 +543,7 @@
 		]
 	},
 	{
+		"id": "60",
 		"answer": "541",
 		"key": "wenus",
 		"answerDescription": "Należy przewertować książkę od początku, patrząc na lewy dolny róg lewych stron. Utworzy ona wówczas kineograf (ang. flipbook), który wskaże kształt litery W. Po zsumowaniu liczb z miejsc, które leżą na linii wskazanego kształtu, otrzymuje się rozwiązanie.",
@@ -491,6 +552,7 @@
 		]
 	},
 	{
+		"id": "61",
 		"answer": "agawonwór",
 		"key": "monolit",
 		"answerDescription": "Długość ścieżki dźwiękowej zapisanej na płycie CD wynosi do 74 minut. Położywszy płytę w wyznaczonym miejscu, wzdłuż jej krawędzi można odczytać rozwiązanie.",
@@ -499,6 +561,7 @@
 		]
 	},
 	{
+		"id": "62",
 		"answer": "7,422",
 		"key": "myśl",
 		"answerDescription": "Rozwiązaniem jest okres obiegu Wenus wokół słońca, czyli rok na Wenus, wyrażony w ziemskich dniach.",
@@ -507,8 +570,10 @@
 		]
 	},
 	{
+		"id": "63",
 		"answer": "ym ot ino",
-		"key": "Gratulacje!",
+		"key": "Congratulations!",
+		"d29key": "Gratulacje!",
 		"answerDescription": "Po wypisaniu kluczy oznaczone ciemnymi symbolami litery utworzą rozwiązanie.",
 		"tips": [
 			"Tylko niektóre litery warto czytać."

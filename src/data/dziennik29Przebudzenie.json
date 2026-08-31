@@ -1,5 +1,14 @@
 [
 	{
+		"id": "x",
+		"answer": "92",
+		"key": "29",
+		"tips": [
+			"To powinno być proste, matematyczne zadanie."
+		]
+	},
+	{
+		"id": "64",
 		"answer": "azcęt",
 		"key": "pól",
 		"tips": [
@@ -8,6 +17,7 @@
 		]
 	},
 	{
+		"id": "65",
 		"answer": "ćśonozcńoksein",
 		"key": "pionek",
 		"tips": [
@@ -15,6 +25,7 @@
 		]
 	},
 	{
+		"id": "66",
 		"answer": "tseg",
 		"key": "róż",
 		"tips": [
@@ -23,6 +34,7 @@
 		]
 	},
 	{
+		"id": "67",
 		"answer": "kenyr",
 		"key": "ręcznik",
 		"tips": [
@@ -31,6 +43,7 @@
 		]
 	},
 	{
+		"id": "68",
 		"answer": "072",
 		"key": "bez",
 		"tips": [
@@ -39,6 +52,7 @@
 		]
 	},
 	{
+		"id": "69",
 		"answer": "063",
 		"key": "łoże",
 		"tips": [
@@ -46,6 +60,7 @@
 		]
 	},
 	{
+		"id": "70",
 		"answer": "069",
 		"key": "kod",
 		"tips": [
@@ -53,6 +68,7 @@
 		]
 	},
 	{
+		"id": "71",
 		"answer": "raimzeb",
 		"key": "kresowy",
 		"tips": [
@@ -60,6 +76,7 @@
 		]
 	},
 	{
+		"id": "72",
 		"answer": "dop",
 		"key": "wykopaliska",
 		"tips": [
@@ -67,6 +84,7 @@
 		]
 	},
 	{
+		"id": "73",
 		"answer": "nelt",
 		"key": "telefon",
 		"tips": [
@@ -74,11 +92,13 @@
 		]
 	},
 	{
+		"id": "74",
 		"answer": "lenut",
 		"key": "klawisze",
 		"tips": []
 	},
 	{
+		"id": "75",
 		"answer": "29321",
 		"key": "niezbadane",
 		"tips": [
@@ -86,6 +106,7 @@
 		]
 	},
 	{
+		"id": "76",
 		"answer": "adazsor",
 		"key": "ryt",
 		"tips": [
@@ -93,6 +114,7 @@
 		]
 	},
 	{
+		"id": "77",
 		"answer": "924040",
 		"key": "terrazyt",
 		"tips": [
@@ -101,6 +123,7 @@
 		]
 	},
 	{
+		"id": "78",
 		"answer": "tal ots",
 		"key": "kropki",
 		"tips": [
@@ -108,6 +131,7 @@
 		]
 	},
 	{
+		"id": "79",
 		"answer": "einatszor",
 		"key": "zakaz",
 		"tips": [
@@ -115,6 +139,7 @@
 		]
 	},
 	{
+		"id": "80",
 		"answer": "854297992",
 		"key": "jod",
 		"tips": [
@@ -122,6 +147,7 @@
 		]
 	},
 	{
+		"id": "81",
 		"answer": "metsysoke",
 		"key": "woda",
 		"tips": [
@@ -129,6 +155,7 @@
 		]
 	},
 	{
+		"id": "82",
 		"answer": {
 			"value": "]mmhh[ ytunim i ęnizdog ąnlautka zsipW",
 			"customValidator": "puzzle82"
@@ -139,6 +166,7 @@
 		]
 	},
 	{
+		"id": "83",
 		"answer": "882",
 		"key": "dziennik",
 		"tips": [
@@ -146,6 +174,7 @@
 		]
 	},
 	{
+		"id": "84",
 		"answer": "agla",
 		"key": "siarka",
 		"tips": [
@@ -153,6 +182,7 @@
 		]
 	},
 	{
+		"id": "85",
 		"answer": "pdpdldp",
 		"key": "portal",
 		"tips": [
@@ -160,13 +190,16 @@
 		]
 	},
 	{
+		"id": "86",
 		"answer": "noivilbo",
 		"key": "baterie",
+		"d29answer": "ńałhcto",
 		"tips": [
 			"Doskonale wiesz, gdzie musisz to wpisać."
 		]
 	},
 	{
+		"id": "87",
 		"answer": "ecwonam",
 		"key": "czerwony",
 		"tips": [
@@ -174,6 +207,7 @@
 		]
 	},
 	{
+		"id": "88",
 		"answer": "jatut",
 		"key": "niebieska",
 		"tips": [
@@ -181,6 +215,7 @@
 		]
 	},
 	{
+		"id": "89",
 		"answer": "033",
 		"key": "szerokość",
 		"tips": [
@@ -189,13 +224,16 @@
 		]
 	},
 	{
+		"id": "90",
 		"answer": "maerd",
 		"key": "cynk",
+		"d29answer": "ajsim",
 		"tips": [
 			"Na pewno kojarzysz te obiekty. Zostały już wcześniej wspomniane."
 		]
 	},
 	{
+		"id": "91",
 		"answer": "aktsup",
 		"key": "czytaj",
 		"tips": [
@@ -203,19 +241,23 @@
 		]
 	},
 	{
+		"id": "92",
 		"answer": "mutnauq",
 		"key": "żółty",
+		"d29answer":"tnakw",
 		"tips": [
 			"Błądzenie po labiryncie po omacku do niczego nie prowadzi. Najlepiej zrobisz, rozrysowując mapę.",
 			"Skoro błądzisz po omacku, zaufaj dotykowi. Kto wie, może te stare ściany mają drugie dno?"
 		]
 	},
 	{
+		"id": "93",
 		"answer": "arksi",
 		"key": "czerwona",
 		"tips": []
 	},
 	{
+		"id": "94",
 		"answer": "43134",
 		"key": "niebieski",
 		"tips": [
@@ -223,6 +265,7 @@
 		]
 	},
 	{
+		"id": "95",
 		"answer": "04-",
 		"key": "brązowa",
 		"tips": [
@@ -231,6 +274,7 @@
 		]
 	},
 	{
+		"id": "96",
 		"answer": "yrutrot",
 		"key": "wygnij",
 		"tips": [
@@ -238,6 +282,7 @@
 		]
 	},
 	{
+		"id": "97",
 		"answer": "anorok",
 		"key": "wystawa",
 		"tips": [
@@ -245,6 +290,7 @@
 		]
 	},
 	{
+		"id": "98",
 		"answer": "tsom",
 		"key": "tlen",
 		"tips": [
@@ -252,6 +298,7 @@
 		]
 	},
 	{
+		"id": "99",
 		"answer": "552",
 		"key": "początek",
 		"tips": [
@@ -259,6 +306,7 @@
 		]
 	},
 	{
+		"id": "100",
 		"answer": "einawikuzsop",
 		"key": "czarna",
 		"tips": [
@@ -267,26 +315,31 @@
 		]
 	},
 	{
+		"id": "101",
 		"answer": "8158",
 		"key": "Rota",
 		"tips": []
 	},
 	{
+		"id": "102",
 		"answer": "9145",
 		"key": "azot",
 		"tips": []
 	},
 	{
+		"id": "103",
 		"answer": "hcarts",
 		"key": "destylacja",
 		"tips": []
 	},
 	{
+		"id": "104",
 		"answer": "yhcołw",
 		"key": "20000",
 		"tips": []
 	},
 	{
+		"id": "105",
 		"answer": "enrev zsuiluj",
 		"key": "melasa",
 		"tips": [
@@ -294,6 +347,7 @@
 		]
 	},
 	{
+		"id": "106",
 		"answer": "ppllllz",
 		"key": "odwaga",
 		"tips": [
@@ -301,6 +355,7 @@
 		]
 	},
 	{
+		"id": "107",
 		"answer": "tol",
 		"key": "itr",
 		"tips": [
@@ -309,11 +364,13 @@
 		]
 	},
 	{
+		"id": "108",
 		"answer": "7971",
 		"key": "ameryk",
 		"tips": []
 	},
 	{
+		"id": "109",
 		"answer": "anaimz",
 		"key": "przerost",
 		"tips": [
@@ -321,6 +378,7 @@
 		]
 	},
 	{
+		"id": "110",
 		"answer": "55",
 		"key": "nora",
 		"tips": [
@@ -328,6 +386,7 @@
 		]
 	},
 	{
+		"id": "111",
 		"answer": "aniltok",
 		"key": "sznurek",
 		"tips": [
@@ -335,11 +394,13 @@
 		]
 	},
 	{
+		"id": "112",
 		"answer": "rotarum",
 		"key": "patyk",
 		"tips": []
 	},
 	{
+		"id": "113",
 		"answer": "einezcanzezrp",
 		"key": "srebro",
 		"tips": [
@@ -348,6 +409,7 @@
 		]
 	},
 	{
+		"id": "114",
 		"answer": "0071",
 		"key": "papier",
 		"tips": [
@@ -355,6 +417,7 @@
 		]
 	},
 	{
+		"id": "115",
 		"answer": "nilknarf",
 		"key": "królik",
 		"tips": [
@@ -363,6 +426,7 @@
 		]
 	},
 	{
+		"id": "116",
 		"answer": "wórazc aniark",
 		"key": "wolfram",
 		"tips": [
@@ -370,6 +434,7 @@
 		]
 	},
 	{
+		"id": "117",
 		"answer": "naicśezs",
 		"key": "fosfor",
 		"tips": [
@@ -377,6 +442,7 @@
 		]
 	},
 	{
+		"id": "118",
 		"answer": "8732",
 		"key": "avena",
 		"tips": [
@@ -384,6 +450,7 @@
 		]
 	},
 	{
+		"id": "119",
 		"answer": [
 			"411 111 29 67 96",
 			"411111296796"
@@ -395,6 +462,7 @@
 		]
 	},
 	{
+		"id": "120",
 		"answer": "9164 783 52583",
 		"key": "",
 		"tips": [

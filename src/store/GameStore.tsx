@@ -5,6 +5,7 @@ import { devtools } from 'zustand/middleware';
 export type Answer = string | string[] | { value: string; customValidator: string };
 
 export interface IKey {
+	id: string;
 	answer: Answer;
 	key: string;
 	tips?: string[];

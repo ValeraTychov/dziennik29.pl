@@ -16,7 +16,7 @@ const AnswerForm = () => {
 			setValue('correctAnswer', true);
 
 			let result = `Poprawnie!`;
-			if (key) result += `\n{Klucz.${currentPage}}: ${key}`;
+			if (key) result += `\n{Klucz.${keys[currentPage]?.id}}: ${key}`;
 
 			setValue('result', result);
 		} else {
@@ -43,7 +43,7 @@ const AnswerForm = () => {
 
 	return (
 		<div className="container">
-			<h1 className="h1">Rozwiąż zagadkę {currentPage}</h1>
+			<h1 className="h1">Rozwiąż zagadkę {keys[currentPage]?.id}</h1>
 
 			<div className="form-wrap">
 				<div className="input-shell">
