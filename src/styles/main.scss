@@ -181,12 +181,8 @@ body {
 	font-family: 'EB Garamond', serif;
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
-
-	&--centered {
-		text-align: center;
-		align-items: center;
-	}
+	align-items: center;
+	text-align: center;
 
 	&__line {
 		margin: 0;
@@ -201,15 +197,6 @@ body {
 		&--bold {
 			font-weight: 700;
 			font-size: 1.75em;
-		}
-
-		&--key {
-			font-weight: 600;
-		}
-
-		&--note {
-			font-size: 0.85em;
-			opacity: 0.7;
 		}
 	}
 
@@ -232,27 +219,16 @@ body {
 	}
 
 	&__image-caption {
-		font-family: 'EB Garamond', serif;
 		font-size: 1.25em;
 		text-decoration: underline;
 	}
 
 	&__link {
-		display: inline-block;
-		padding: 8px 20px;
-		border: 2px solid currentColor;
-		border-radius: 4px;
 		font-size: 1.5em;
 		margin-bottom: 0.8em;
 		font-weight: 600;
-		letter-spacing: 0.05em;
+		text-decoration: underline;
 		transition: opacity 0.2s;
-
-		&--plain {
-			border: none;
-			padding: 0;
-			text-decoration: underline;
-		}
 
 		&:hover {
 			opacity: 0.7;

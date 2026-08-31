@@ -3,7 +3,7 @@ import { useGameStore } from '../store/GameStore';
 
 const specialResults: Record<string, JSX.Element> = {
 	'd29-1-finale': (
-		<div className="special-result special-result--centered">
+		<div className="special-result">
 			<p className="special-result__line special-result__line--bold">Congratulations!</p>
 			<p className="special-result__line">Zrobiłeś to! Udało ci się rozszyfrować zapiski zespołu archeologów i krok po kroku zbliżyć się do rozwiązania tajemnicy. Dzięki swojej wytrwałości, odwadze i sprytowi rozwiązałeś wszystkie zagadki, ale ostateczny klucz wciąż nie został znaleziony!</p>
 			<p className="special-result__line">
@@ -17,7 +17,7 @@ const specialResults: Record<string, JSX.Element> = {
 		</div>
 	),
 	'd29-2-finale': (
-		<div className="special-result special-result--centered">
+		<div className="special-result">
 			<a
 				className="special-result__link special-result__link--plain"
 				href="https://journal29.com/120/thefinalpage/"
@@ -30,7 +30,7 @@ const specialResults: Record<string, JSX.Element> = {
 		</div>
 	),
 	'd29-3-finale': (
-		<div className="special-result special-result--centered">
+		<div className="special-result">
 			<p className="special-result__line special-result__line--bold">Gratulacje!</p>
 			<p className="special-result__line">Zakończyłeś przygodę zaklętą w kartach Dziennika29 Zapomnienie.</p>
 			<a
