@@ -27,6 +27,7 @@ const Modal = () => {
 
 	const handleModalYes = () => {
 		setOpen(false);
+		setValue('specialResult', null);
 		if (modalType === 'tip') {
 			const tips = keys[currentPage]?.tips ?? [];
 			if (tips.length === 0) {

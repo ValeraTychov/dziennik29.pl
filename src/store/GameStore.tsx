@@ -10,6 +10,7 @@ export interface IKey {
 	key: string;
 	tips?: string[];
 	error?: string;
+	specialResult?: string;
 }
 
 interface IGameData {
@@ -18,6 +19,7 @@ interface IGameData {
 	totalPages: number;
 	result: string;
 	correctAnswer: boolean;
+	specialResult: string | null;
 }
 
 const initialState: IGameData = {
@@ -26,6 +28,7 @@ const initialState: IGameData = {
 	totalPages: 0,
 	result: '',
 	correctAnswer: false,
+	specialResult: null,
 };
 
 interface IGameStore extends IGameData {

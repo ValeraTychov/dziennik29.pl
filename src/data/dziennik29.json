@@ -575,6 +575,7 @@
 		"key": "Congratulations!",
 		"d29key": "Gratulacje!",
 		"answerDescription": "Po wypisaniu kluczy oznaczone ciemnymi symbolami litery utworzą rozwiązanie.",
+		"specialResult": "d29-1-finale",
 		"tips": [
 			"Tylko niektóre litery warto czytać."
 		]

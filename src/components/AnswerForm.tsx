@@ -10,16 +10,22 @@ const AnswerForm = () => {
 	const [answer, setAnswer] = useState('');
 
 	const checkAnswer = useCallback(() => {
-		const key = keys[currentPage]?.key;
+		const currentKey = keys[currentPage];
+		const key = currentKey?.key;
 
-		if (isAnswerCorrect(keys[currentPage]?.answer, answer)) {
+		if (isAnswerCorrect(currentKey?.answer, answer)) {
 			setValue('correctAnswer', true);
+			setValue('specialResult', currentKey?.specialResult ?? null);
 
-			let result = `Poprawnie!`;
-			if (key) result += `\n{Klucz.${keys[currentPage]?.id}}: ${key}`;
+			let result = '';
+			if (!currentKey?.specialResult) {
+				result = `Poprawnie!`;
+				if (key) result += `\n{Klucz.${currentKey?.id}}: ${key}`;
+			}
 
 			setValue('result', result);
 		} else {
+			setValue('specialResult', null);
 			setValue('result', 'Błędna odpowiedź');
 		}
 	}, [answer, currentPage, keys, setValue]);
@@ -39,7 +45,8 @@ const AnswerForm = () => {
 
 	useEffect(() => {
 		setAnswer('');
-	}, [currentPage]);
+		setValue('specialResult', null);
+	}, [currentPage, setValue]);
 
 	return (
 		<div className="container">
