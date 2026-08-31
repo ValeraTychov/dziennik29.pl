@@ -55,7 +55,7 @@
 		"answer": "063",
 		"key": "łoże",
 		"tips": [
-			"Te ptaszki wyglądają podobnie, ale każdy z nich jest inny. Możesz to nawet zmierzyć"
+			"Te ptaszki wyglądają podobnie, ale każdy z nich jest inny. Możesz to nawet zmierzyć."
 		]
 	},
 	{
@@ -63,7 +63,7 @@
 		"answer": "069",
 		"key": "kod",
 		"tips": [
-			"Liczby to nie wszystko. Na kompasie są też inne znaki"
+			"Liczby to nie wszystko. Na kompasie są też inne znaki."
 		]
 	},
 	{
@@ -79,7 +79,7 @@
 		"answer": "dop",
 		"key": "wykopaliska",
 		"tips": [
-			"Szukaj tego, co zawsze jest na dole, lecz w słowach staje na samym przedzie"
+			"Szukaj tego, co zawsze jest na dole, lecz w słowach staje na samym przedzie."
 		]
 	},
 	{
@@ -195,7 +195,8 @@
 		"answer": "ńałhcto",
 		"key": "baterie",
 		"tips": [
-			"Doskonale wiesz, gdzie musisz to wpisać."
+			"Doskonale wiesz, gdzie musisz to wpisać.",
+			"To, że w pokoju jest ciemno, wcale nie znaczy, że nic tam nie ma."
 		]
 	},
 	{
