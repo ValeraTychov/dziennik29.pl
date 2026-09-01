@@ -9,7 +9,7 @@ const Modal = () => {
 	const [modalType, setModalType] = useState('');
 	const [hintIndex, setHintIndex] = useState(0);
 
-	const keys = useGameStore((state) => state.keys);
+	const puzzles = useGameStore((state) => state.puzzles);
 	const currentPage = useGameStore((state) => state.currentPage);
 	const setValue = useGameStore((state) => state.setValue);
 
@@ -29,7 +29,7 @@ const Modal = () => {
 		setOpen(false);
 		setValue('specialResult', null);
 		if (modalType === 'tip') {
-			const tips = keys[currentPage]?.tips ?? [];
+			const tips = puzzles[currentPage]?.tips ?? [];
 			if (tips.length === 0) {
 				setValue('result', 'Brak dostępnych podpowiedzi');
 			} else {
@@ -40,7 +40,7 @@ const Modal = () => {
 			}
 		}
 		if (modalType === 'answer') {
-			const answer = formatAnswer(keys[currentPage]?.answer);
+			const answer = formatAnswer(puzzles[currentPage]?.answer);
 			setValue('result', `Odpowiedź: ${answer}`);
 		}
 	};

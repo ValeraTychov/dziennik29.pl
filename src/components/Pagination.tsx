@@ -4,7 +4,7 @@ import { useGameStore } from '../store/GameStore';
 const Pagination = () => {
 	const currentPage = useGameStore((state) => state.currentPage);
 	const totalPages = useGameStore((state) => state.totalPages);
-	const keys = useGameStore((state) => state.keys);
+	const puzzles = useGameStore((state) => state.puzzles);
 	const setValue = useGameStore((state) => state.setValue);
 
 	const maxPages = 7;
@@ -18,7 +18,7 @@ const Pagination = () => {
 
 	const pageLinks = [];
 	for (let i = start; i < end; i++) {
-		const id = keys[i]?.id ?? String(i);
+		const id = puzzles[i]?.id ?? String(i);
 		pageLinks.push(
 			<Link
 				key={i}
@@ -36,8 +36,8 @@ const Pagination = () => {
 		);
 	}
 
-	const prevId = keys[currentPage - 1]?.id;
-	const nextId = keys[currentPage + 1]?.id;
+	const prevId = puzzles[currentPage - 1]?.id;
+	const nextId = puzzles[currentPage + 1]?.id;
 
 	return (
 		<div className="pagination">

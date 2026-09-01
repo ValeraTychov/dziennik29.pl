@@ -4,23 +4,22 @@ import { useGameStore } from '../store/GameStore';
 
 const AnswerForm = () => {
 	const currentPage = useGameStore((state) => state.currentPage);
-	const keys = useGameStore((state) => state.keys);
+	const puzzles = useGameStore((state) => state.puzzles);
 	const setValue = useGameStore((state) => state.setValue);
 
 	const [answer, setAnswer] = useState('');
 
 	const checkAnswer = useCallback(() => {
-		const currentKey = keys[currentPage];
-		const key = currentKey?.key;
+		const puzzle = puzzles[currentPage];
 
-		if (isAnswerCorrect(currentKey?.answer, answer)) {
+		if (isAnswerCorrect(puzzle?.answer, answer)) {
 			setValue('correctAnswer', true);
-			setValue('specialResult', currentKey?.specialResult ?? null);
+			setValue('specialResult', puzzle?.specialResult ?? null);
 
 			let result = '';
-			if (!currentKey?.specialResult) {
+			if (!puzzle?.specialResult) {
 				result = `Poprawnie!`;
-				if (key) result += `\n{Klucz.${currentKey?.id}}: ${key}`;
+				if (puzzle?.key) result += `\n{Klucz.${puzzle?.id}}: ${puzzle?.key}`;
 			}
 
 			setValue('result', result);
@@ -28,7 +27,7 @@ const AnswerForm = () => {
 			setValue('specialResult', null);
 			setValue('result', 'Błędna odpowiedź');
 		}
-	}, [answer, currentPage, keys, setValue]);
+	}, [answer, currentPage, puzzles, setValue]);
 
 	useEffect(() => {
 		const listener = (event: { code: string; preventDefault: () => void }) => {
@@ -46,11 +45,12 @@ const AnswerForm = () => {
 	useEffect(() => {
 		setAnswer('');
 		setValue('specialResult', null);
-	}, [currentPage, setValue]);
+	// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [currentPage]);
 
 	return (
 		<div className="container">
-			<h1 className="h1">Rozwiąż zagadkę {keys[currentPage]?.id}</h1>
+			<h1 className="h1">Rozwiąż zagadkę {puzzles[currentPage]?.id}</h1>
 
 			<div className="form-wrap">
 				<div className="input-shell">

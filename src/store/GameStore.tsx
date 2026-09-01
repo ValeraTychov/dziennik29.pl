@@ -4,7 +4,7 @@ import { devtools } from 'zustand/middleware';
 
 export type Answer = string | string[] | { value: string; customValidator: string };
 
-export interface IKey {
+export interface IPuzzle {
 	id: string;
 	answer: Answer;
 	key: string;
@@ -15,7 +15,7 @@ export interface IKey {
 
 interface IGameData {
 	currentPage: number;
-	keys: Array<IKey>;
+	puzzles: Array<IPuzzle>;
 	totalPages: number;
 	result: string;
 	correctAnswer: boolean;
@@ -24,7 +24,7 @@ interface IGameData {
 
 const initialState: IGameData = {
 	currentPage: 0,
-	keys: [],
+	puzzles: [],
 	totalPages: 0,
 	result: '',
 	correctAnswer: false,
@@ -32,7 +32,7 @@ const initialState: IGameData = {
 };
 
 interface IGameStore extends IGameData {
-	setKeys: (keys: Array<IKey>) => void;
+	setPuzzles: (puzzles: Array<IPuzzle>) => void;
 	setValue: <K extends keyof IGameStore>(key: K, value: IGameStore[K]) => void;
 	reset: () => void;
 }
@@ -41,10 +41,10 @@ export const useGameStore = create<IGameStore>()(
 	devtools(
 		immer((set) => ({
 			...initialState,
-			setKeys: (keys) => {
+			setPuzzles: (puzzles) => {
 				set((draft) => {
-					draft.keys = keys;
-					draft.totalPages = keys.length;
+					draft.puzzles = puzzles;
+					draft.totalPages = puzzles.length;
 				});
 			},
 			setValue: (key, value) => {
