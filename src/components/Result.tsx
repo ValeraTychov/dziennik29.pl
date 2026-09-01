@@ -1,19 +1,34 @@
+import type { JSX } from 'react';
 import { useEffect } from 'react';
 import { useGameStore } from '../store/GameStore';
 
 const specialResults: Record<string, () => JSX.Element> = {
 	'd29-1-finale': () => (
 		<div className="special-result">
-			<p className="special-result__line special-result__line--bold">Congratulations!</p>
-			<p className="special-result__line">Zrobiłeś to! Udało ci się rozszyfrować zapiski zespołu archeologów i krok po kroku zbliżyć się do rozwiązania tajemnicy. Dzięki swojej wytrwałości, odwadze i sprytowi rozwiązałeś wszystkie zagadki, ale ostateczny klucz wciąż nie został znaleziony!</p>
+			<p className="special-result__line special-result__line--bold">
+				Congratulations!
+			</p>
 			<p className="special-result__line">
-				Odpowiedzi przyniosły nowe pytania:<br />
-				Co z licznymi odniesieniami do czasu i życia pozaziemskiego?<br />
-				Jaki związek mają z nami, z ludźmi?<br />
-				Co stało się z zespołem z wykopalisk?<br />
+				Zrobiłeś to! Udało ci się rozszyfrować zapiski zespołu
+				archeologów i krok po kroku zbliżyć się do rozwiązania
+				tajemnicy. Dzięki swojej wytrwałości, odwadze i sprytowi
+				rozwiązałeś wszystkie zagadki, ale ostateczny klucz wciąż nie
+				został znaleziony!
+			</p>
+			<p className="special-result__line">
+				Odpowiedzi przyniosły nowe pytania:
+				<br />
+				Co z licznymi odniesieniami do czasu i życia pozaziemskiego?
+				<br />
+				Jaki związek mają z nami, z ludźmi?
+				<br />
+				Co stało się z zespołem z wykopalisk?
+				<br />
 				Gdzie oni są?
 			</p>
-			<p className="special-result__line">To jeszcze nie koniec przygody z Dziennikiem 29…</p>
+			<p className="special-result__line">
+				To jeszcze nie koniec przygody z Dziennikiem 29…
+			</p>
 		</div>
 	),
 	'd29-2-finale': () => (
@@ -26,21 +41,36 @@ const specialResults: Record<string, () => JSX.Element> = {
 			>
 				Final Page &rsaquo;
 			</a>
-			<p className="special-result__line">Oficjalna strona polskiego wydania Dziennika29 jest już niedostępna. Dlatego kierujemy Cię na oryginalną, anglojęzyczną stronę finałową — najbardziej uważnych badaczy czeka tam niespodzianka.</p>
+			<p className="special-result__line">
+				Oficjalna strona polskiego wydania Dziennika29 jest już
+				niedostępna. Dlatego kierujemy Cię na oryginalną, anglojęzyczną
+				stronę finałową — najbardziej uważnych badaczy czeka tam
+				niespodzianka.
+			</p>
 		</div>
 	),
 	'd29-3-finale': () => (
 		<div className="special-result">
-			<p className="special-result__line special-result__line--bold">Gratulacje!</p>
-			<p className="special-result__line">Zakończyłeś przygodę zaklętą w kartach Dziennika29 Zapomnienie.</p>
+			<p className="special-result__line special-result__line--bold">
+				Gratulacje!
+			</p>
+			<p className="special-result__line">
+				Zakończyłeś przygodę zaklętą w kartach Dziennika29 Zapomnienie.
+			</p>
 			<a
 				className="special-result__image-link"
 				href="https://discord.gg/f5hgnYbNEa"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				<span className="special-result__image-caption">Join Journal 29 Secret Club</span>
-				<img className="special-result__image" src="https://journal29.com/160/secret.jpg" alt="" />
+				<span className="special-result__image-caption">
+					Join Journal 29 Secret Club
+				</span>
+				<img
+					className="special-result__image"
+					src="https://journal29.com/160/secret.jpg"
+					alt=""
+				/>
 			</a>
 		</div>
 	),
@@ -68,7 +98,11 @@ const Result = () => {
 
 	return (
 		<div className="container container--narrow">
-			{Special ? <Special /> : <div className={resultClasses}>{result}</div>}
+			{Special ? (
+				<Special />
+			) : (
+				<div className={resultClasses}>{result}</div>
+			)}
 		</div>
 	);
 };
