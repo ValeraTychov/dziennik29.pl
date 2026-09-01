@@ -7,8 +7,9 @@ const Modal = () => {
 	const [titleText, setTitleText] = useState('');
 	const modalRef = useRef<HTMLDivElement>(null);
 	const [modalType, setModalType] = useState('');
+	const [hintIndex, setHintIndex] = useState(0);
 
-	const keys = useGameStore((state) => state.keys);
+	const puzzles = useGameStore((state) => state.puzzles);
 	const currentPage = useGameStore((state) => state.currentPage);
 	const setValue = useGameStore((state) => state.setValue);
 
@@ -26,12 +27,20 @@ const Modal = () => {
 
 	const handleModalYes = () => {
 		setOpen(false);
+		setValue('specialResult', null);
 		if (modalType === 'tip') {
-			const tip = keys[currentPage]?.tip;
-			setValue('result', tip || 'Brak dostępnych podpowiedzi');
+			const tips = puzzles[currentPage]?.tips ?? [];
+			if (tips.length === 0) {
+				setValue('result', 'Brak dostępnych podpowiedzi');
+			} else {
+				const idx = hintIndex % tips.length;
+				const prefix = tips.length > 1 ? `${idx + 1}. ` : '';
+				setValue('result', `${prefix}${tips[idx]}`);
+				setHintIndex(idx + 1);
+			}
 		}
 		if (modalType === 'answer') {
-			const answer = formatAnswer(keys[currentPage]?.answer);
+			const answer = formatAnswer(puzzles[currentPage]?.answer);
 			setValue('result', `Odpowiedź: ${answer}`);
 		}
 	};
@@ -39,6 +48,10 @@ const Modal = () => {
 	const handleModalClose = () => {
 		setOpen(false);
 	};
+
+	useEffect(() => {
+		setHintIndex(0);
+	}, [currentPage]);
 
 	useEffect(() => {
 		const handleClick = (event: MouseEvent) => {

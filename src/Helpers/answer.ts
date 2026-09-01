@@ -1,26 +1,38 @@
 import type { Answer } from '../store/GameStore';
 
-type Range = { range: string };
+interface DynamicAnswer {
+	check: (guess: string) => boolean;
+}
+
+const dynamicAnswers: Record<string, DynamicAnswer> = {
+	puzzle82: {
+		check: (guess) => {
+			const now = new Date();
+			const hh = String(now.getHours()).padStart(2, '0');
+			const mm = String(now.getMinutes()).padStart(2, '0');
+			return guess.trim() === `${hh}${mm}`;
+		},
+	},
+	puzzle133: {
+		check: (guess) => {
+			const num = Number(guess.trim());
+			return Number.isInteger(num) && num >= 3646 && num <= 3946;
+		},
+	},
+};
 
 const reverseAnswer = (str: string) => str.split('').reverse().join('');
 
-const isNumberRange = (answer: Answer): answer is Range =>
-	typeof answer === 'object' && 'range' in answer;
-
-const parseRange = (range: string): [number, number] => {
-	const [from, to] = reverseAnswer(range).split('..').map(Number);
-	return [from, to];
-};
+const isDynamic = (answer: Answer): answer is { value: string; customValidator: string } =>
+	typeof answer === 'object' && !Array.isArray(answer) && 'customValidator' in answer;
 
 const isAnswerCorrect = (answer: Answer | undefined, guess: string): boolean => {
 	if (answer == null) return false;
 
 	const normalized = guess.trim().toLowerCase();
 
-	if (isNumberRange(answer)) {
-		const [from, to] = parseRange(answer.range);
-		const num = Number(normalized);
-		return Number.isInteger(num) && num >= from && num <= to;
+	if (isDynamic(answer)) {
+		return dynamicAnswers[answer.customValidator]?.check(normalized) ?? false;
 	}
 
 	if (Array.isArray(answer)) {
@@ -35,9 +47,8 @@ const isAnswerCorrect = (answer: Answer | undefined, guess: string): boolean => 
 const formatAnswer = (answer: Answer | undefined): string => {
 	if (answer == null) return '';
 
-	if (isNumberRange(answer)) {
-		const [from, to] = parseRange(answer.range);
-		return `dowolna liczba z zakresu ${from}–${to}`;
+	if (isDynamic(answer)) {
+		return reverseAnswer(answer.value);
 	}
 
 	if (Array.isArray(answer)) {

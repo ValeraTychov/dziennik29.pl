@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Header from '../components/Header.tsx';
-import { useGameStore, type IKey } from '../store/GameStore.tsx';
+import { useGameStore, type IPuzzle } from '../store/GameStore.tsx';
 import NotFound from './NotFound';
 import dziennik29Data from '../data/dziennik29.json';
 import dziennik29PrzebudzenieData from '../data/dziennik29Przebudzenie.json';
@@ -13,21 +13,23 @@ const pages = [
 	...dziennik29Data,
 	...dziennik29PrzebudzenieData,
 	...dziennik29ZapomnienieData,
-] as Array<IKey>;
+] as Array<IPuzzle>;
 
-useGameStore.getState().setKeys(pages);
+useGameStore.getState().setPuzzles(pages);
 
 const GamePage = () => {
 	const { pageId } = useParams();
-	const totalPages = useGameStore((state) => state.totalPages);
 	const setValue = useGameStore((state) => state.setValue);
-	const pageNum = Number(pageId ?? 0);
+
+	const pageIndex = pageId !== undefined
+		? pages.findIndex((p) => p.id === pageId)
+		: 0;
 
 	useEffect(() => {
-		setValue('currentPage', pageNum);
-	}, [pageNum, setValue]);
+		if (pageIndex !== -1) setValue('currentPage', pageIndex);
+	}, [pageIndex, setValue]);
 
-	if (pageId !== undefined && (!/^\d+$/.test(pageId) || pageNum >= totalPages)) return <NotFound />;
+	if (pageId !== undefined && pageIndex === -1) return <NotFound />;
 
 	return (
 		<>

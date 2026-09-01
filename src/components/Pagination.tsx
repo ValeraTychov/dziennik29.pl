@@ -4,6 +4,7 @@ import { useGameStore } from '../store/GameStore';
 const Pagination = () => {
 	const currentPage = useGameStore((state) => state.currentPage);
 	const totalPages = useGameStore((state) => state.totalPages);
+	const puzzles = useGameStore((state) => state.puzzles);
 	const setValue = useGameStore((state) => state.setValue);
 
 	const maxPages = 7;
@@ -17,27 +18,31 @@ const Pagination = () => {
 
 	const pageLinks = [];
 	for (let i = start; i < end; i++) {
+		const id = puzzles[i]?.id ?? String(i);
 		pageLinks.push(
 			<Link
 				key={i}
-				to={`/${i}`}
+				to={`/${id}`}
 				tabIndex={0}
-				aria-label={`Strona ${i}`}
+				aria-label={`Strona ${id}`}
 				className={i === currentPage ? 'active' : ''}
 				aria-current={i === currentPage ? 'page' : undefined}
 				onClick={() => {
 					setValue('currentPage', i);
 				}}
 			>
-				{i}
+				{id}
 			</Link>
 		);
 	}
 
+	const prevId = puzzles[currentPage - 1]?.id;
+	const nextId = puzzles[currentPage + 1]?.id;
+
 	return (
 		<div className="pagination">
 			<Link
-				to={`/${currentPage - 1}`}
+				to={prevId ? `/${prevId}` : '#'}
 				className="pagination-prev"
 				aria-label="Poprzednia strona"
 				onClick={() => {
@@ -48,7 +53,7 @@ const Pagination = () => {
 			</Link>
 			{pageLinks}
 			<Link
-				to={`/${currentPage + 1}`}
+				to={nextId ? `/${nextId}` : '#'}
 				className="pagination-next"
 				aria-label="Nastepna strona"
 				onClick={() => {

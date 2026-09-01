@@ -4,14 +4,14 @@ import { useGameStore } from '../store/GameStore';
 
 const GoToPage = () => {
 	const currentPage = useGameStore((state) => state.currentPage);
-	const totalPages = useGameStore((state) => state.totalPages);
+	const puzzles = useGameStore((state) => state.puzzles);
 	const setValue = useGameStore((state) => state.setValue);
-	const [goToPage, setGoToPage] = useState<number | string>();
+	const [goToPage, setGoToPage] = useState<string>('');
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		setGoToPage(currentPage);
-	}, [currentPage]);
+		setGoToPage(puzzles[currentPage]?.id ?? '');
+	}, [currentPage, puzzles]);
 
 	return (
 		<div className="goTo">
@@ -19,26 +19,19 @@ const GoToPage = () => {
 				Strona:
 			</label>
 			<input
-				type="number"
-				min="0"
-				max={totalPages - 1}
+				type="text"
 				className="goTo-input"
 				id="goTo-input"
-				value={goToPage !== undefined ? goToPage : ''}
-				onChange={(e) => {
-					const value = e.target.value;
-					setGoToPage(value);
-				}}
+				value={goToPage}
+				onChange={(e) => setGoToPage(e.target.value)}
 			/>
 			<button
 				className="goTo-button"
 				onClick={() => {
-					let val = Number(goToPage);
-					if (!isNaN(val)) {
-						val = Math.max(0, Math.min(val, totalPages - 1));
-						setValue('currentPage', val);
-						setGoToPage(val);
-						navigate(`/${val}`);
+					const idx = puzzles.findIndex((p) => p.id === goToPage.trim());
+					if (idx !== -1) {
+						setValue('currentPage', idx);
+						navigate(`/${goToPage.trim()}`);
 					}
 				}}
 				aria-label="Przejdź do strony"

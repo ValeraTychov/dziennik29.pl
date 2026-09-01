@@ -1,59 +1,491 @@
 [
-	{ "answer": "azcęt", "key": "pól" },
-	{ "answer": "ćśonozcńoksein", "key": "pionek" },
-	{ "answer": "tseg", "key": "róż" },
-	{ "answer": "kenyr", "key": "ręcznik" },
-	{ "answer": "072", "key": "bez" },
-	{ "answer": "063", "key": "łoże" },
-	{ "answer": "069", "key": "kod" },
-	{ "answer": "raimzeb", "key": "kresowy" },
-	{ "answer": "dop", "key": "wykopaliska" },
-	{ "answer": "nelt", "key": "telefon" },
-	{ "answer": "lenut", "key": "klawisze" },
-	{ "answer": "29321", "key": "niezbadane" },
-	{ "answer": "adazsor", "key": "ryt" },
-	{ "answer": "924040", "key": "terrazyt" },
-	{ "answer": "tal ots", "key": "kropki" },
-	{ "answer": "einatszor", "key": "zakaz" },
-	{ "answer": "854297992", "key": "jod" },
-	{ "answer": "metsysoke", "key": "woda" },
-	{ "answer": "zaret", "key": "wysokość" },
-	{ "answer": "882", "key": "dziennik" },
-	{ "answer": "agla", "key": "siarka" },
-	{ "answer": "pdpdldp", "key": "portal" },
-	{ "answer": "ńałhcto", "key": "baterie" },
-	{ "answer": "ecwonam", "key": "czerwony" },
-	{ "answer": "jatut", "key": "niebieska" },
-	{ "answer": "033", "key": "szerokość" },
-	{ "answer": "maerd", "key": "cynk" },
-	{ "answer": "aktsup", "key": "czytaj" },
-	{ "answer": "mutnauq", "key": "żółty" },
-	{ "answer": "arksi", "key": "czerwona" },
-	{ "answer": "43134", "key": "niebieski" },
-	{ "answer": "04-", "key": "brązowa" },
-	{ "answer": "yrutrot", "key": "wygnij" },
-	{ "answer": "anorok", "key": "wystawa" },
-	{ "answer": "tsom", "key": "tlen" },
-	{ "answer": "552", "key": "początek" },
-	{ "answer": "einawikuzsop", "key": "czarna" },
-	{ "answer": "8158", "key": "Rota" },
-	{ "answer": "9145", "key": "azot" },
-	{ "answer": "hcarts", "key": "destylacja" },
-	{ "answer": "yhcołw", "key": "20000" },
-	{ "answer": "enrev zsuiluj", "key": "melasa" },
-	{ "answer": "ppllllz", "key": "odwaga" },
-	{ "answer": "tol", "key": "itr" },
-	{ "answer": "7971", "key": "ameryk" },
-	{ "answer": "anaimz", "key": "przerost" },
-	{ "answer": "55", "key": "nora" },
-	{ "answer": "aniltok", "key": "sznurek" },
-	{ "answer": "rotarum", "key": "patyk" },
-	{ "answer": "einezcanzezrp", "key": "srebro" },
-	{ "answer": "0071", "key": "papier" },
-	{ "answer": "nilknarf", "key": "królik" },
-	{ "answer": "wórazc aniark", "key": "wolfram" },
-	{ "answer": "naicśezs", "key": "fosfor" },
-	{ "answer": "8732", "key": "avena" },
-	{ "answer": ["411 111 29 67 96", "411111296796"], "key": "lughole" },
-	{ "answer": "9164 783 52583", "key": "" }
+	{
+		"id": "x",
+		"answer": "92",
+		"key": "29",
+		"tips": [
+			"To powinno być proste, matematyczne zadanie."
+		]
+	},
+	{
+		"id": "64",
+		"answer": "azcęt",
+		"key": "pól",
+		"tips": [
+			"Niedawno padał deszcz.",
+			"7 kolorów w jednym miejscu... Hm, gdzie ja to widziałem?"
+		]
+	},
+	{
+		"id": "65",
+		"answer": "ćśonozcńoksein",
+		"key": "pionek",
+		"tips": [
+			"Spróbuj spojrzeć na to zadanie z innej perspektywy."
+		]
+	},
+	{
+		"id": "66",
+		"answer": "tseg",
+		"key": "róż",
+		"tips": [
+			"Kiedy to czytam, w głowie słyszę szum radiostacji.",
+			"Treść tych słów nie ma dla nas żadnego znaczenia."
+		]
+	},
+	{
+		"id": "67",
+		"answer": "kenyr",
+		"key": "ręcznik",
+		"tips": [
+			"Położenie kropel nie jest przypadkowe, może przydać Ci się ołówek.",
+			"Z fragmentów słów powstają nowe słowa."
+		]
+	},
+	{
+		"id": "68",
+		"answer": "072",
+		"key": "bez",
+		"tips": [
+			"Twój szacunek do książki blokuje rozwiązanie. Zapomnij o manierach i po prostu przypraw temu osłu uszy!"
+		]
+	},
+	{
+		"id": "69",
+		"answer": "063",
+		"key": "łoże",
+		"tips": [
+			"Te ptaszki wyglądają podobnie, ale każdy z nich jest inny. Możesz to nawet zmierzyć."
+		]
+	},
+	{
+		"id": "70",
+		"answer": "069",
+		"key": "kod",
+		"tips": [
+			"Liczby to nie wszystko. Na kompasie są też inne znaki."
+		]
+	},
+	{
+		"id": "71",
+		"answer": "raimzeb",
+		"key": "kresowy",
+		"tips": [
+			"Niektóre litery mają inną wagę."
+		]
+	},
+	{
+		"id": "72",
+		"answer": "dop",
+		"key": "wykopaliska",
+		"tips": [
+			"Szukaj tego, co zawsze jest na dole, lecz w słowach staje na samym przedzie."
+		]
+	},
+	{
+		"id": "73",
+		"answer": "nelt",
+		"key": "telefon",
+		"tips": [
+			"Nadaj kształt temu, czego na stronie brakuje."
+		]
+	},
+	{
+		"id": "74",
+		"answer": "lenut",
+		"key": "klawisze",
+		"tips": [
+			"Zabaw się w cenzora. Zakryj to, co zbędne, a ukryty przekaz wyjdzie na jaw."
+		]
+	},
+	{
+		"id": "75",
+		"answer": "29321",
+		"key": "niezbadane",
+		"tips": [
+			"Ta książka to prawdziwe dzieło sztuki. Twórcy wykonali kawał wielkiej roboty, ale Ty nie znasz nawet ich imion..."
+		]
+	},
+	{
+		"id": "76",
+		"answer": "adazsor",
+		"key": "ryt",
+		"tips": [
+			"Ci wojownicy znaleźli się na stronach dziennika. Ale to nie jest ich pole bitwy."
+		]
+	},
+	{
+		"id": "77",
+		"answer": "924040",
+		"key": "terrazyt",
+		"tips": [
+			"Właściciel tej walizki nie grzeszył kreatywnością przy wyborze kodu.",
+			"Gdzieś w tym dzienniku widziałem informacje o właścicielu walizki."
+		]
+	},
+	{
+		"id": "78",
+		"answer": "tal ots",
+		"key": "kropki",
+		"tips": [
+			"Słyszysz? To teraz dmuchaj!"
+		]
+	},
+	{
+		"id": "79",
+		"answer": "einatszor",
+		"key": "zakaz",
+		"tips": [
+			"Nie czytaj linijka po linijce. Spróbuj inaczej."
+		]
+	},
+	{
+		"id": "80",
+		"answer": "854297992",
+		"key": "jod",
+		"tips": [
+			"Coś tu nie gra. Sprawdź w encyklopedii lub w internecie."
+		]
+	},
+	{
+		"id": "81",
+		"answer": "metsysoke",
+		"key": "woda",
+		"tips": [
+			"Słowom potrzebne są tylko litery."
+		]
+	},
+	{
+		"id": "82",
+		"answer": {
+			"value": "]mmhh[ ytunim i ęnizdog ąnlautka zsipW",
+			"customValidator": "puzzle82"
+		},
+		"key": "wysokość",
+		"tips": [
+			"Wygląda na to, że to czyjś plan dnia."
+		]
+	},
+	{
+		"id": "83",
+		"answer": "882",
+		"key": "dziennik",
+		"tips": [
+			"Odbicie."
+		]
+	},
+	{
+		"id": "84",
+		"answer": "agla",
+		"key": "siarka",
+		"tips": [
+			"Te stworzenia pochodzą z tej samej listy."
+		]
+	},
+	{
+		"id": "85",
+		"answer": "pdpdldp",
+		"key": "portal",
+		"tips": [
+			"Przełóż plan ucieczki na litery."
+		]
+	},
+	{
+		"id": "86",
+		"answer": "ńałhcto",
+		"key": "baterie",
+		"tips": [
+			"Doskonale wiesz, gdzie musisz to wpisać.",
+			"To, że w pokoju jest ciemno, wcale nie znaczy, że nic tam nie ma."
+		]
+	},
+	{
+		"id": "87",
+		"answer": "ecwonam",
+		"key": "czerwony",
+		"tips": [
+			"Przyjrzyj się uważnie. Podpowiedź została już podana."
+		]
+	},
+	{
+		"id": "88",
+		"answer": "jatut",
+		"key": "niebieska",
+		"tips": [
+			"Nie szukaj ukrytego sensu."
+		]
+	},
+	{
+		"id": "89",
+		"answer": "033",
+		"key": "szerokość",
+		"tips": [
+			"Użyłeś już linijki? Jesteś w połowie drogi. Pamiętaj jednak, że rzeczywisty posąg jest większy niż ten na obrazku.",
+			"Poszukaj obiektów, które pomogą Ci określić skalę."
+		]
+	},
+	{
+		"id": "90",
+		"answer": "maerd",
+		"key": "cynk",
+		"d29answer": "ajsim",
+		"tips": [
+			"Na pewno kojarzysz te obiekty. Zostały już wcześniej wspomniane."
+		]
+	},
+	{
+		"id": "91",
+		"answer": "aktsup",
+		"key": "czytaj",
+		"tips": [
+			"Nie wszystkie litery są nam potrzebne. Które odrzucić? Przydałby się tu jakiś szablon."
+		]
+	},
+	{
+		"id": "92",
+		"answer": "mutnauq",
+		"key": "żółty",
+		"d29answer":"tnakw",
+		"tips": [
+			"Błądzenie po labiryncie po omacku do niczego nie prowadzi. Najlepiej zrobisz, rozrysowując mapę.",
+			"Skoro błądzisz po omacku, zaufaj dotykowi. Kto wie, może te stare ściany mają drugie dno?"
+		]
+	},
+	{
+		"id": "93",
+		"answer": "arksi",
+		"key": "czerwona",
+		"tips": [
+			"Nie komplikuj tego. Dostałeś wszystko, co jest ci potrzebne."
+		]
+	},
+	{
+		"id": "94",
+		"answer": "43134",
+		"key": "niebieski",
+		"tips": [
+			"Rulon? A gdyby tak naprawdę zwinąć tę stronę w rulon?"
+		]
+	},
+	{
+		"id": "95",
+		"answer": "04-",
+		"key": "brązowa",
+		"tips": [
+			"Jaką liczbę wskazuje termometr?",
+			"Celsjusz i Fahrenheit mierzą temperaturę inaczej. Ale w pewnym miejscu ich skale mają punkt wspólny."
+		]
+	},
+	{
+		"id": "96",
+		"answer": "yrutrot",
+		"key": "wygnij",
+		"tips": [
+			"Szukaj tam, gdzie ta litera zagubiła się w rzędzie pozostałych."
+		]
+	},
+	{
+		"id": "97",
+		"answer": "anorok",
+		"key": "wystawa",
+		"tips": [
+			"Przyda Ci się ołówek."
+		]
+	},
+	{
+		"id": "98",
+		"answer": "tsom",
+		"key": "tlen",
+		"tips": [
+			"Po co tutaj szklanka? Być może w połączeniu z kluczem pozwoli zobaczyć zupełnie inny obraz?"
+		]
+	},
+	{
+		"id": "99",
+		"answer": "552",
+		"key": "początek",
+		"tips": [
+			"Pomiary mogą być niedokładne. Wypróbuj sąsiednie liczby, a na pewno Ci się uda."
+		]
+	},
+	{
+		"id": "100",
+		"answer": "einawikuzsop",
+		"key": "czarna",
+		"tips": [
+			"Znowu te same przedmioty?",
+			"Potrzebujesz zupełnie innych wskazówek. One natychmiast odrzucą to, co niepotrzebne."
+		]
+	},
+	{
+		"id": "101",
+		"answer": "8158",
+		"key": "Rota",
+		"tips": [
+			"Kod jest na obcięciu stron, ale ukryto go przed prostym spojrzeniem. Po prostu postępuj zgodnie z instrukcją."
+		]
+	},
+	{
+		"id": "102",
+		"answer": "9145",
+		"key": "azot",
+		"tips": [
+			"Cyfry kodu nie są przypadkowe - każda z nich oznacza konkretną cechę elementów. Znajdź klucz powiązań."
+		]
+	},
+	{
+		"id": "103",
+		"answer": "hcarts",
+		"key": "destylacja",
+		"tips": [
+			"54.340661, 10.049839",
+			"O, to wygląda na jakiś szyfr, szyfr na stronach książki... Szyfr książkowy... Nie, durna nazwa."
+		]
+	},
+	{
+		"id": "104",
+		"answer": "yhcołw",
+		"key": "20000",
+		"tips": [
+			"To wygląda jak flaga."
+		]
+	},
+	{
+		"id": "105",
+		"answer": "enrev zsuiluj",
+		"key": "melasa",
+		"tips": [
+			"Fantastyczne! Kto w ogóle mógł wpaść na taki pomysł?"
+		]
+	},
+	{
+		"id": "106",
+		"answer": "ppllllz",
+		"key": "odwaga",
+		"tips": [
+			"Zagrajmy w Tetrisa."
+		]
+	},
+	{
+		"id": "107",
+		"answer": "tol",
+		"key": "itr",
+		"tips": [
+			"Mam wrażenie, że widzieliśmy już gdzieś podobne figury.",
+			"A4, może być też A5, ale ona z pewnością nam się przyda."
+		]
+	},
+	{
+		"id": "108",
+		"answer": "7971",
+		"key": "ameryk",
+		"tips": [
+			"Pierwszy obrazek wskaże ci miasto, a drugi doprowadzi do konkretnego miejsca w nim. Prosta matematyka. Zostaje tylko klucz, który odkryje przed tobą wydarzenie z tamtych lat.",
+			"Potrzebujesz tylko roku."
+		]
+	},
+	{
+		"id": "109",
+		"answer": "anaimz",
+		"key": "przerost",
+		"tips": [
+			"Czy te litery nie składają się przypadkiem z prostszych elementów?"
+		]
+	},
+	{
+		"id": "110",
+		"answer": "55",
+		"key": "nora",
+		"tips": [
+			"Po prostu wytęż uwagę."
+		]
+	},
+	{
+		"id": "111",
+		"answer": "aniltok",
+		"key": "sznurek",
+		"tips": [
+			"Jedno serce to jedno życie."
+		]
+	},
+	{
+		"id": "112",
+		"answer": "rotarum",
+		"key": "patyk",
+		"tips": [
+			"Mój dziadek miał inny przepis i składniki. Ale piratom też by się to spodobało.",
+			"Ojej, co oni zrobili z tym kluczem? Czekaj! A co, jeśli ja mam zrobić dokładnie to samo?"
+		]
+	},
+	{
+		"id": "113",
+		"answer": "einezcanzezrp",
+		"key": "srebro",
+		"tips": [
+			"Czy my już gdzieś nie widzieliśmy tych palców?",
+			"Zagnij palce i przyłóż dłoń. Co widzisz?"
+		]
+	},
+	{
+		"id": "114",
+		"answer": "0071",
+		"key": "papier",
+		"tips": [
+			"Wygląd strony nie jest przypadkowy."
+		]
+	},
+	{
+		"id": "115",
+		"answer": "nilknarf",
+		"key": "królik",
+		"tips": [
+			"Nie czas na gry. Zaraz rozpęta się burza.",
+			"Chcesz kolejną podpowiedź? W takim razie wyciągaj sto dolarów."
+		]
+	},
+	{
+		"id": "116",
+		"answer": "wórazc aniark",
+		"key": "wolfram",
+		"tips": [
+			"Dziewczynka."
+		]
+	},
+	{
+		"id": "117",
+		"answer": "naicśezs",
+		"key": "fosfor",
+		"tips": [
+			"Dlaczego miasta na liście się powtarzają? Może trasa też ma znaczenie?"
+		]
+	},
+	{
+		"id": "118",
+		"answer": "8732",
+		"key": "avena",
+		"tips": [
+			"Czy ten kosmos nie wydaje Ci się zbyt... zielony? A te czarne dziury na rogach? To nie fizyka kwantowa, to zupełnie inna gra."
+		]
+	},
+	{
+		"id": "119",
+		"answer": [
+			"411 111 29 67 96",
+			"411111296796"
+		],
+		"key": "lughole",
+		"tips": [
+			"Pisanie tych wszystkich nazw zajmuje tyle czasu... Gdyby tak miały prostsze, krótsze oznaczenia.",
+			"W wyobraźni to tylko chaos. Spróbuj przelać to na papier, a ukryta figura natychmiast stanie się widoczna."
+		]
+	},
+	{
+		"id": "120",
+		"answer": "9164 783 52583",
+		"key": "",
+		"specialResult": "d29-2-finale",
+		"tips": [
+			"Byli tu już na samym początku."
+		]
+	}
 ]
